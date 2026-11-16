@@ -93,31 +93,54 @@ test('欠账：一次只能欠一件 —— 再开一条先关旧的', async () 
   }
 });
 
-test('欠账：醒来会让它累积 —— wakes 就是惯性的痕迹', async () => {
+test('欠账：每次醒来都要结账 —— 写了或关了，才醒得过来', async () => {
   const dir = await tempDir();
   try {
     await openLoop({ dir, text: '回去看那辆不存在的车' });
     const first = await wake({ dir });
-    const second = await wake({ dir });
-    const third = await wake({ dir });
     assert.equal(first.wakes, 1);
-    assert.equal(second.wakes, 2);
-    assert.equal(third.wakes, 3, '没推进的每一次醒来都记一次：这就是"它一直在"');
+    // 上一次没写也没关：拒绝再醒。否则"再醒一次看看"永远免费
+    await assert.rejects(() => wake({ dir }), /没结账/);
     const status = await statusLoop({ dir });
-    assert.equal(status.open.wakes, 3);
+    assert.equal(status.open.wakes, 1, '被挡回去的那次不算醒来');
+    assert.equal(status.chance, true, '状态里看得见"上一次没结账"');
   } finally {
     await rm(dir, { recursive: true, force: true });
   }
 });
 
-test('欠账：醒来只有一次额度，写一次就用完', async () => {
+test('欠账：写了算结账，关了也算结账 —— 两条出口都通', async () => {
+  const dir = await tempDir();
+  try {
+    await openLoop({ dir, text: '回去看那辆不存在的车' });
+    await wake({ dir });
+    const note = await appendNote({ dir, text: '第一段' });
+    assert.equal(note.consumedChance, true, '写一句就是出口');
+    const again = await appendNote({ dir, text: '第二段' });
+    assert.equal(again.consumedChance, false, '结账只结一次，不会被一次醒来抵两次');
+    const second = await wake({ dir });
+    assert.equal(second.wakes, 2, '结过账就能再醒，wakes 继续累加');
+    await assert.rejects(() => wake({ dir }), /没结账/);
+    const closed = await closeLoop({ dir, reason: '它本来就不存在' });
+    assert.equal(closed.closed.wakes, 2);
+    const third = await wake({ dir });
+    assert.equal(third.open, null, '关干净之后照常醒：没有账要结，不拦');
+  } finally {
+    await rm(dir, { recursive: true, force: true });
+  }
+});
+
+test('欠账：手里没有欠账时，连续醒来不拦 —— 没有账可结', async () => {
   const dir = await tempDir();
   try {
     await wake({ dir });
-    const first = await appendNote({ dir, text: '第一段' });
-    assert.equal(first.consumedChance, true, '这一次的额度被用掉了');
-    const second = await appendNote({ dir, text: '第二段' });
-    assert.equal(second.consumedChance, false, '额度不能连着用两次');
+    await wake({ dir });
+    const status = await statusLoop({ dir });
+    assert.equal(status.open, null);
+    // 空转留下的一次额度不算到下一件欠账头上
+    await openLoop({ dir, text: '新开的一件' });
+    const after = await wake({ dir });
+    assert.equal(after.wakes, 1, '刚开的不该一上来就被挡');
   } finally {
     await rm(dir, { recursive: true, force: true });
   }
