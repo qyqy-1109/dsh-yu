@@ -396,6 +396,41 @@ test('写入提醒：连续多轮没写入时才提醒，提醒后间隔拉长',
   assert.ok(nudges.length <= 10, `40 轮里最多提醒 10 次，实际 ${nudges.length}`);
 });
 
+test('写入提醒：真跑到第 6 轮，提醒要加进注入里，而且不许抛', async () => {
+  // 这条防线之前是坏的：`renderInjection` 返回的是**字符串**，旧代码却对它做
+  // `injection.text += …` —— ESM 严格模式下给原始值加属性直接 TypeError。
+  // 而 shouldNudge 的纯函数测试照样绿，所以一直没红：测了判据，没测那条路径。
+  const env = await bootstrap();
+  try {
+    const preStep = env.listeners.find((entry) => entry.event === 'agent/pre-step').handler;
+    const write = env.tools.find((tool) => tool.name === 'memory_write');
+    await write.execute({ kind: 'fact', text: '用户喜欢喝手冲咖啡，不加糖' }, {});
+
+    const turn = (text) => async () => ({
+      kind: 'enter',
+      messages: [{ role: 'user', content: [{ type: 'text', text }] }],
+    });
+    const session = { id: 's-nudge' };
+    const injectText = async (no) => {
+      const out = await preStep({ agent: { session }, step: 1, turn: no, signal: { aborted: false } }, turn('咖啡 手冲 不加糖 哪个更好'));
+      const message = out?.messages?.at(-1);
+      return String(message?.content?.[0]?.text ?? '');
+    };
+
+    const texts = [];
+    for (let no = 1; no <= 6; no += 1) texts.push(await injectText(no));
+    assert.ok(
+      texts.slice(0, 5).every((text) => !text.includes('【写入提醒】')),
+      '前 5 轮不该提醒',
+    );
+    assert.ok(texts[5].includes('【写入提醒】'), '第 6 轮必须真的把提醒注入出去');
+    assert.ok(texts[5].includes('<memory-loom>'), '提醒是加在注入后面，不是把注入顶掉');
+    assert.equal(texts[5].match(/【写入提醒】/g).length, 1, '只加一次');
+  } finally {
+    await env.cleanup();
+  }
+});
+
 test('批量写入：一次调用写多条，各自独立去重', async () => {
   const dir = await mkdtemp(join(tmpdir(), 'loom-batch-'));
   const { ctx, tools } = makeCtx();

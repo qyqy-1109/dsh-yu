@@ -3,6 +3,33 @@
 格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)，
 版本号遵循 [语义化版本](https://semver.org/lang/zh-CN/)。
 
+## [0.68.1] - 2026-11-16
+
+### 修：写入提醒那条防线本身是坏的
+`renderInjection()` 返回的是**字符串**，`agent/pre-step` 里却对它做 `injection.text += …`。
+ESM 严格模式下给原始值加属性直接 `TypeError: Cannot create property 'text' on string`。
+也就是说 `shouldNudge` 一旦命中（连续 6 轮无写入），整条 pre-step 就抛 —— 提醒没发出去，
+注入也一起没了。改成字符串拼接（`let injection` + `injection +=`）。
+
+为什么一直没红：`shouldNudge` 是纯函数，测试只测了判据（第 6 轮 true、之后每 4 轮一次），
+**没测带提醒的注入路径**。测了判据，没测路径。
+
+### 修：成长曲线的契约开销又漏了【还没说完】
+`growth.js` 里按桶算 `contractChars` 时只传了 `memories/slots/selfNarrative`，
+`loops` 和 `cfg` 都没传 —— 顶部读数传了全量，于是曲线上的契约字数比真实注入少一块。
+这正是 0.49.1「曲线替自己的开销打掩护」的残留形态，只是这次漏的是 loops 块。
+
+- 按 `end` 那个时刻取线索：那时候还开着，才算进那一桶的开销；关掉的不算。
+- `cfg` 一路透传（`options.contract`），两边用同一套上限，否则不可比。
+- 规矩写进注释：**buildRecall 注入几块，曲线就算几块** —— 每加一个块，这里必须同步。
+
+### 测试
+- 新增 2 项：`pre-step` 真跑到第 6 轮（断言提醒进了注入、没抛）；曲线末桶的契约字数
+  必须等于顶部读数、关掉的线索要从开销里减掉。
+- 281 测试 / verify 57 全绿。
+
+
+
 ## [0.68.0] - 2026-11-16
 
 ### 改：欠账从"给额度"改成"结账"

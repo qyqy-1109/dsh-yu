@@ -97,6 +97,36 @@ test('契约块开销：被解除的约束不再算进开销（它已不是禁�
   }
 });
 
+test('契约块开销：曲线末桶要把【还没说完】算进去，且和顶部读数一致', async () => {
+  // 0.49.1 那个坑的第二次：加了【还没说完】之后，growthCurve 调 contractCost 时
+  // 只传了 memories/slots/selfNarrative，cfg 也没传 —— 多出来的几十字在曲线上又隐身了。
+  const { dir, store } = await openTempStore();
+  try {
+    await store.write({ kind: 'constraint', text: UNRELATED });
+    const opened = await store.openLoopEntry({ text: '曲线的契约开销还漏一块', openedBy: 'user' });
+
+    const now = Date.now();
+    const top = contractCost(store.state, store.cfg);
+    assert.ok(
+      top.blocks.some((block) => block.name === 'loops'),
+      '顶部读数要算上线索块',
+    );
+    const last = growthCurve(store.state, { now, contract: store.cfg }).buckets.at(-1);
+    assert.equal(
+      last.contractChars,
+      top.chars,
+      '曲线末桶的契约字数必须等于顶部读数 —— 少一块就是曲线替自己的开销打掩护',
+    );
+
+    await store.closeLoopEntry({ id: opened.loop.id, reason: '修完了' });
+    const after = growthCurve(store.state, { now: Date.now() + 1000, contract: store.cfg }).buckets.at(-1);
+    assert.equal(after.contractChars, contractCost(store.state, store.cfg).chars, '关掉之后两边一起减');
+    assert.ok(after.contractChars < last.contractChars, '关掉的线索不该继续算进每轮开销');
+  } finally {
+    await rm(dir, { recursive: true, force: true });
+  }
+});
+
 test('同根因疤痕：真实库里那两条聚成一组，无关的不会被拉进来', () => {
   const groups = rootCauseGroups([
     { id: 'a', text: SCAR_A },
