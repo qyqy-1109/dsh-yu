@@ -1,4 +1,4 @@
-﻿# labels/
+# labels/
 
 标注与判据是**证据**，不是产物，所以进版本控制（生成的 jsonl 工件留在 out/，已 gitignore）。
 
