@@ -1,0 +1,21 @@
+{"type":"header","version":"gold-sample20-v1","criterion":"v1.1 + v1.2（同一命题）","approvedBy":"user-2026-11-19","note":"双标零分歧；用户全批。#8 保持“不同命题”（愿景两侧面）","matchedPairSame":5,"unmatchedShouldRecord":8,"precisionEstimate":0.5,"missEstimate":0.8}
+{"n":1,"group":"matched","verdict":"该记","kindFix":"world","pairCorrect":true,"reason":"三工作区并行是长期结构；尺子配的 6221c420 就是同一件事（列了三个工作区名字）","approved":true}
+{"n":2,"group":"matched","verdict":"该记","kindFix":"fact","pairCorrect":false,"reason":"候选讲用户对流畅度的敏感（特质），标签讲“要有帧率保障+自适应降档+FPS 读数”（实现要求），是两件事","approved":true}
+{"n":3,"group":"matched","verdict":"该记","kindFix":"world","pairCorrect":true,"reason":"新建两个工作区，同一件事","approved":true}
+{"n":4,"group":"matched","verdict":"该记","kindFix":"world","pairCorrect":true,"reason":"“要一个会成长、有性格的自我”与标签的“先做成长部分再接手脚”是同一决定","approved":true}
+{"n":5,"group":"matched","verdict":"该记","kindFix":"world","pairCorrect":true,"reason":"人格页=太极阳，标签就是这条定案","approved":true}
+{"n":6,"group":"matched","verdict":"该记","kindFix":"fact","pairCorrect":false,"reason":"候选是分工原则（给判断、决定权归人），标签是“内核 vs costume”的定义澄清，不同事实","approved":true}
+{"n":7,"group":"matched","verdict":"该记","kindFix":"world","pairCorrect":true,"reason":"同一结论：现在做不到，先模拟等模型发展","approved":true}
+{"n":8,"group":"matched","verdict":"该记","kindFix":"world","pairCorrect":false,"reason":"候选=要有倾向与欲求；标签=要有自己的生活（房间/账号）。相邻但不同侧面","approved":true}
+{"n":9,"group":"matched","verdict":"该记","kindFix":"fact","pairCorrect":false,"reason":"候选是选型偏好（用官方 API 做归纳），标签是 cordis.patch.yml 的配置事实，不同","approved":true}
+{"n":10,"group":"matched","verdict":"该记","kindFix":"world","pairCorrect":false,"reason":"候选=全部能力一起推进的工作方式，标签=要造有倾向有欲求的人，不同","approved":true}
+{"n":11,"group":"unmatched","verdict":"该记","kindFix":"world","pairCorrect":null,"reason":"可视化定稿结论；尺子靠“星图”这个高频词，稀有证据不足所以漏了","approved":true}
+{"n":12,"group":"unmatched","verdict":"该记","kindFix":"fact","pairCorrect":null,"reason":"TDD 是长期工作方式偏好，可迁移","approved":true}
+{"n":13,"group":"unmatched","verdict":"该记","kindFix":"world","pairCorrect":null,"reason":"共享 session 的判断结论，会影响以后怎么设计协作层","approved":true}
+{"n":14,"group":"unmatched","verdict":"该记","kindFix":"constraint","pairCorrect":null,"reason":"硬禁令（禁止自动更新/删除/改写），是 constraint 的标准形态","approved":true}
+{"n":15,"group":"unmatched","verdict":"该记","kindFix":"constraint","pairCorrect":null,"reason":"“每步必须配失败测试和毕业判据”是硬性方法纪律","approved":true}
+{"n":16,"group":"unmatched","verdict":"不该记","kindFix":null,"pairCorrect":null,"reason":"“方案三”没有指代对象，脱窗即失效；写进库既检索不到也读不懂","approved":true}
+{"n":17,"group":"unmatched","verdict":"该记","kindFix":"fact","pairCorrect":null,"reason":"价值取向：准 > 显得聪明，长期影响判断","approved":true}
+{"n":18,"group":"unmatched","verdict":"该记","kindFix":"constraint","pairCorrect":null,"reason":"判分器不变量，硬规则","approved":true}
+{"n":19,"group":"unmatched","verdict":"该记","kindFix":"constraint","pairCorrect":null,"reason":"解读纪律：降级未分离前不许下结论","approved":true}
+{"n":20,"group":"unmatched","verdict":"不该记","kindFix":null,"pairCorrect":null,"reason":"过程记录（昨晚提了个要求），时点性强，三天后无意义","approved":true}

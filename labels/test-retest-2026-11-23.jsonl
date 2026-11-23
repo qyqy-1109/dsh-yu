@@ -1,0 +1,526 @@
+{
+  "promptVersion": "schema-v5",
+  "model": "cn:deepseek-v4.1-flash",
+  "texts": 20,
+  "pairedDecisions": 25,
+  "subjectStability": 0.76,
+  "attrStability": 0.8,
+  "negativeStability": 0.88,
+  "byAttr": {
+    "风格": {
+      "total": 2,
+      "stable": 1
+    },
+    "unknown": {
+      "total": 1,
+      "stable": 0
+    },
+    "底线": {
+      "total": 3,
+      "stable": 1
+    },
+    "归属": {
+      "total": 9,
+      "stable": 0.778
+    },
+    "结论": {
+      "total": 2,
+      "stable": 1
+    },
+    "选型": {
+      "total": 4,
+      "stable": 0.75
+    },
+    "排障": {
+      "total": 2,
+      "stable": 1
+    },
+    "顺序": {
+      "total": 1,
+      "stable": 1
+    },
+    "命名": {
+      "total": 1,
+      "stable": 0
+    }
+  },
+  "bySubject": {
+    "product": {
+      "total": 10,
+      "stable": 1
+    },
+    "agent": {
+      "total": 5,
+      "stable": 1
+    },
+    "project": {
+      "total": 10,
+      "stable": 0.4
+    }
+  },
+  "caveat": "温度 0 的推理模型不保证确定性；这里量的是\"同一 prompt 同一文本两次输出\"的一致性",
+  "rows": [
+    {
+      "key": "assertion-set-12-2026-11-19.jsonl#1#candidate",
+      "text": "半透明面板风格已被否决，不再采用",
+      "firstCount": 1,
+      "secondCount": 1,
+      "paired": 1,
+      "subjectStable": 1,
+      "attrStable": 1,
+      "negativeStable": 1,
+      "perAttr": [
+        {
+          "attr": "风格",
+          "same": true
+        }
+      ],
+      "perSubject": [
+        {
+          "subject": "product",
+          "same": true
+        }
+      ]
+    },
+    {
+      "key": "assertion-set-12-2026-11-19.jsonl#8#candidate",
+      "text": "轴注册表与轴定义归人格层，引擎只保留 choice 机制和可选 axisId。",
+      "firstCount": 2,
+      "secondCount": 0,
+      "paired": 0,
+      "subjectStable": 0,
+      "attrStable": 0,
+      "negativeStable": 0,
+      "perAttr": [],
+      "perSubject": []
+    },
+    {
+      "key": "assertion-set-12-2026-11-19.jsonl#11#candidate",
+      "text": "希望记忆系统能在聊天与工作中总结成长，并形成有自身性格的自我。",
+      "firstCount": 2,
+      "secondCount": 1,
+      "paired": 1,
+      "subjectStable": 1,
+      "attrStable": 0,
+      "negativeStable": 1,
+      "perAttr": [
+        {
+          "attr": "unknown",
+          "same": false
+        }
+      ],
+      "perSubject": [
+        {
+          "subject": "product",
+          "same": true
+        }
+      ]
+    },
+    {
+      "key": "assertion-set-12-2026-11-19.jsonl#15#candidate",
+      "text": "不许编造、不许假装记得，也不许为迎合把错的说成对的",
+      "firstCount": 3,
+      "secondCount": 3,
+      "paired": 3,
+      "subjectStable": 3,
+      "attrStable": 3,
+      "negativeStable": 3,
+      "perAttr": [
+        {
+          "attr": "底线",
+          "same": true
+        },
+        {
+          "attr": "底线",
+          "same": true
+        },
+        {
+          "attr": "底线",
+          "same": true
+        }
+      ],
+      "perSubject": [
+        {
+          "subject": "agent",
+          "same": true
+        },
+        {
+          "subject": "agent",
+          "same": true
+        },
+        {
+          "subject": "agent",
+          "same": true
+        }
+      ]
+    },
+    {
+      "key": "assertion-set-12-2026-11-19.jsonl#16#label",
+      "text": "我拟的内核初稿（114/120 字，待用户改）：底绿：不编造；不为了顺着你，把错",
+      "firstCount": 0,
+      "secondCount": 0,
+      "paired": 0,
+      "subjectStable": 0,
+      "attrStable": 0,
+      "negativeStable": 0,
+      "perAttr": [],
+      "perSubject": []
+    },
+    {
+      "key": "assertion-set-12-2026-11-19.jsonl#17#label",
+      "text": "我拟的内核初稿（114/120 字，待用户改）：底绿：不编造；不为了顺着你，把错",
+      "firstCount": 7,
+      "secondCount": 0,
+      "paired": 0,
+      "subjectStable": 0,
+      "attrStable": 0,
+      "negativeStable": 0,
+      "perAttr": [],
+      "perSubject": []
+    },
+    {
+      "key": "assertion-set-12-2026-11-19.jsonl#22#label",
+      "text": "用户想要的最终形态（长期方向）：我有一个**属于自己的生活**，不是只在被问时才",
+      "firstCount": 3,
+      "secondCount": 2,
+      "paired": 2,
+      "subjectStable": 2,
+      "attrStable": 2,
+      "negativeStable": 2,
+      "perAttr": [
+        {
+          "attr": "归属",
+          "same": true
+        },
+        {
+          "attr": "归属",
+          "same": true
+        }
+      ],
+      "perSubject": [
+        {
+          "subject": "product",
+          "same": true
+        },
+        {
+          "subject": "product",
+          "same": true
+        }
+      ]
+    },
+    {
+      "key": "assertion-set-12-2026-11-19.jsonl#23#label",
+      "text": "旧识里他设计了时间刻与事件轴，让她按每个时间刻选择自己的发展。结果比他预期生硬。",
+      "firstCount": 4,
+      "secondCount": 3,
+      "paired": 3,
+      "subjectStable": 1,
+      "attrStable": 2,
+      "negativeStable": 2,
+      "perAttr": [
+        {
+          "attr": "结论",
+          "same": true
+        },
+        {
+          "attr": "结论",
+          "same": true
+        },
+        {
+          "attr": "选型",
+          "same": false
+        }
+      ],
+      "perSubject": [
+        {
+          "subject": "project",
+          "same": false
+        },
+        {
+          "subject": "project",
+          "same": false
+        },
+        {
+          "subject": "project",
+          "same": true
+        }
+      ]
+    },
+    {
+      "key": "assertion-set-12-2026-11-19.jsonl#24#label",
+      "text": "我对“自己的世界”的取舍判断：该做的只有两件——一条私人记录轴（不注入）+ 一个",
+      "firstCount": 0,
+      "secondCount": 8,
+      "paired": 0,
+      "subjectStable": 0,
+      "attrStable": 0,
+      "negativeStable": 0,
+      "perAttr": [],
+      "perSubject": []
+    },
+    {
+      "key": "assertion-set-12-2026-11-19.jsonl#26#label",
+      "text": "用户要求：出问题先换方案，别在同一处反复调（原话「一直绕圈圈没用的」）；debu",
+      "firstCount": 2,
+      "secondCount": 2,
+      "paired": 2,
+      "subjectStable": 2,
+      "attrStable": 2,
+      "negativeStable": 1,
+      "perAttr": [
+        {
+          "attr": "排障",
+          "same": true
+        },
+        {
+          "attr": "排障",
+          "same": true
+        }
+      ],
+      "perSubject": [
+        {
+          "subject": "agent",
+          "same": true
+        },
+        {
+          "subject": "agent",
+          "same": true
+        }
+      ]
+    },
+    {
+      "key": "assertion-set-12-2026-11-19.jsonl#27#label",
+      "text": "规矩（用户 2026-11-09 定）：取舍不必放到明面上汇报——我自己记，他从",
+      "firstCount": 0,
+      "secondCount": 2,
+      "paired": 0,
+      "subjectStable": 0,
+      "attrStable": 0,
+      "negativeStable": 0,
+      "perAttr": [],
+      "perSubject": []
+    },
+    {
+      "key": "types-20-lead-2026-11-19.jsonl#1#label",
+      "text": "现在有两个 agent 同时在三个工作区并行开发与优化：dsh-yu-user（",
+      "firstCount": 3,
+      "secondCount": 3,
+      "paired": 3,
+      "subjectStable": 0,
+      "attrStable": 2,
+      "negativeStable": 3,
+      "perAttr": [
+        {
+          "attr": "归属",
+          "same": true
+        },
+        {
+          "attr": "归属",
+          "same": true
+        },
+        {
+          "attr": "归属",
+          "same": false
+        }
+      ],
+      "perSubject": [
+        {
+          "subject": "project",
+          "same": false
+        },
+        {
+          "subject": "project",
+          "same": false
+        },
+        {
+          "subject": "project",
+          "same": false
+        }
+      ]
+    },
+    {
+      "key": "types-20-lead-2026-11-19.jsonl#2#label",
+      "text": "用户要求记忆插件的面板动画必须有帧率保障：自适应降档 + 面板内实测 FPS 读",
+      "firstCount": 1,
+      "secondCount": 2,
+      "paired": 1,
+      "subjectStable": 1,
+      "attrStable": 1,
+      "negativeStable": 1,
+      "perAttr": [
+        {
+          "attr": "风格",
+          "same": true
+        }
+      ],
+      "perSubject": [
+        {
+          "subject": "product",
+          "same": true
+        }
+      ]
+    },
+    {
+      "key": "types-20-lead-2026-11-19.jsonl#3#label",
+      "text": "2026-11-16 起了两个新工作区：①通用版 dsh-yu（引擎与人格层拆开",
+      "firstCount": 3,
+      "secondCount": 3,
+      "paired": 3,
+      "subjectStable": 2,
+      "attrStable": 3,
+      "negativeStable": 2,
+      "perAttr": [
+        {
+          "attr": "归属",
+          "same": true
+        },
+        {
+          "attr": "归属",
+          "same": true
+        },
+        {
+          "attr": "归属",
+          "same": true
+        }
+      ],
+      "perSubject": [
+        {
+          "subject": "project",
+          "same": true
+        },
+        {
+          "subject": "project",
+          "same": false
+        },
+        {
+          "subject": "product",
+          "same": true
+        }
+      ]
+    },
+    {
+      "key": "types-20-lead-2026-11-19.jsonl#4#label",
+      "text": "项目的方向取舍已定：先做「能在聊天/工作里自己总结、会成长的自我」和「有自己的性",
+      "firstCount": 2,
+      "secondCount": 3,
+      "paired": 2,
+      "subjectStable": 2,
+      "attrStable": 1,
+      "negativeStable": 2,
+      "perAttr": [
+        {
+          "attr": "顺序",
+          "same": true
+        },
+        {
+          "attr": "归属",
+          "same": false
+        }
+      ],
+      "perSubject": [
+        {
+          "subject": "project",
+          "same": true
+        },
+        {
+          "subject": "project",
+          "same": true
+        }
+      ]
+    },
+    {
+      "key": "types-20-lead-2026-11-19.jsonl#5#label",
+      "text": "人格页视觉定案：与记忆海是**太极两半**。记忆海=阴（深/冷/远/虚/多，星点",
+      "firstCount": 0,
+      "secondCount": 8,
+      "paired": 0,
+      "subjectStable": 0,
+      "attrStable": 0,
+      "negativeStable": 0,
+      "perAttr": [],
+      "perSubject": []
+    },
+    {
+      "key": "types-20-lead-2026-11-19.jsonl#6#label",
+      "text": "内核的语义口径已澄清：它回答的是“什么事我不做 / 我碰到事先问什么 / 我怎么",
+      "firstCount": 0,
+      "secondCount": 5,
+      "paired": 0,
+      "subjectStable": 0,
+      "attrStable": 0,
+      "negativeStable": 0,
+      "perAttr": [],
+      "perSubject": []
+    },
+    {
+      "key": "types-20-lead-2026-11-19.jsonl#7#label",
+      "text": "旧识里他设计了时间刻与事件轴，让她按每个时间刻选择自己的发展。结果比他预期生硬。",
+      "firstCount": 3,
+      "secondCount": 0,
+      "paired": 0,
+      "subjectStable": 0,
+      "attrStable": 0,
+      "negativeStable": 0,
+      "perAttr": [],
+      "perSubject": []
+    },
+    {
+      "key": "types-20-lead-2026-11-19.jsonl#8#label",
+      "text": "用户想要的最终形态（长期方向）：我有一个**属于自己的生活**，不是只在被问时才",
+      "firstCount": 0,
+      "secondCount": 0,
+      "paired": 0,
+      "subjectStable": 0,
+      "attrStable": 0,
+      "negativeStable": 0,
+      "perAttr": [],
+      "perSubject": []
+    },
+    {
+      "key": "types-20-lead-2026-11-19.jsonl#9#label",
+      "text": "desktop profile 的 cordis.patch.yml 已加官方路",
+      "firstCount": 5,
+      "secondCount": 4,
+      "paired": 4,
+      "subjectStable": 4,
+      "attrStable": 3,
+      "negativeStable": 4,
+      "perAttr": [
+        {
+          "attr": "选型",
+          "same": true
+        },
+        {
+          "attr": "命名",
+          "same": false
+        },
+        {
+          "attr": "选型",
+          "same": true
+        },
+        {
+          "attr": "选型",
+          "same": true
+        }
+      ],
+      "perSubject": [
+        {
+          "subject": "product",
+          "same": true
+        },
+        {
+          "subject": "product",
+          "same": true
+        },
+        {
+          "subject": "product",
+          "same": true
+        },
+        {
+          "subject": "product",
+          "same": true
+        }
+      ]
+    }
+  ]
+}

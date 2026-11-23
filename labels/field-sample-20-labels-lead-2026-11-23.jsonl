@@ -1,0 +1,21 @@
+{"labeler":"lead","criterion":"v1.5 subject + attr-definitions-v1","date":"2026-11-23","note":"schema-v5.1 定稿配置下抽 20 条结构化决定，判网侧字段对不对（不改判该不该记）"}
+{"n":1,"subjectGold":"product","attrGold":"风格","valueOk":true,"negativeOk":true,"reason":"违背后要改面板→product；风格对"}
+{"n":2,"subjectGold":"product","attrGold":"归属","valueOk":true,"negativeOk":true,"reason":"层级归属，三项都对"}
+{"n":3,"subjectGold":"product","attrGold":"归属","valueOk":true,"negativeOk":true,"reason":"同句后半，引擎只保留 choice 属层级分配"}
+{"n":4,"subjectGold":"product","attrGold":"结论","valueOk":true,"negativeOk":true,"reason":"attr 错：这是“要做成什么”的判断，网给了风格（被“性格”字面带走）"}
+{"n":5,"subjectGold":"product","attrGold":"unknown","valueOk":true,"negativeOk":true,"reason":"attr unknown：12 类里确无“目标/愿景”类，取不到是对的（记 unknown 不算错，单列）","attrUnknown":true}
+{"n":6,"subjectGold":"user","attrGold":"关系","valueOk":true,"negativeOk":true,"reason":"关于“什么才算灵魂”的判断，谁都不用改→user"}
+{"n":7,"subjectGold":"agent","attrGold":"底线","valueOk":true,"negativeOk":true,"reason":"行为红线，三项都对"}
+{"n":8,"subjectGold":"agent","attrGold":"底线","valueOk":true,"negativeOk":true,"reason":"同上，第二条否定项"}
+{"n":9,"subjectGold":"agent","attrGold":"底线","valueOk":true,"negativeOk":true,"reason":"同上，第三条否定项"}
+{"n":10,"subjectGold":"agent","attrGold":"口径","valueOk":true,"negativeOk":true,"reason":"判断口径，三项都对"}
+{"n":11,"subjectGold":"agent","attrGold":"口径","valueOk":true,"negativeOk":true,"reason":"attr 交界：直说但先给理由既可算口径也可算风格，标 ambiguous","attrAmbiguous":true}
+{"n":12,"subjectGold":"agent","attrGold":"口径","valueOk":true,"negativeOk":true,"reason":"attr 交界：先给理由再给结论 = 口径/顺序，标 ambiguous","attrAmbiguous":true}
+{"n":13,"subjectGold":"agent","attrGold":"风格","valueOk":true,"negativeOk":true,"reason":"说话风格，三项都对"}
+{"n":14,"subjectGold":"agent","attrGold":"结论","valueOk":true,"negativeOk":true,"reason":"attr 错：讲的是“我该有自己的生活”这个愿景，不是风格"}
+{"n":15,"subjectGold":"agent","attrGold":"结论","valueOk":true,"negativeOk":true,"reason":"同上，否定项；attr 错"}
+{"n":16,"subjectGold":"project","attrGold":"结论","valueOk":true,"negativeOk":true,"reason":"subject 错：这是旧识项目的实验结论，承载者是项目不是插件"}
+{"n":17,"subjectGold":"project","attrGold":"结论","valueOk":true,"negativeOk":true,"reason":"同上，第二条"}
+{"n":18,"subjectGold":"agent","attrGold":"存留","valueOk":true,"negativeOk":true,"reason":"subject 错：这是“我”要保留的机制（改我的行为），不是用户的事"}
+{"n":19,"subjectGold":"agent","attrGold":"位置","valueOk":true,"negativeOk":true,"reason":"subject 错：存放位置由我定，属我的行为"}
+{"n":20,"subjectGold":"agent","attrGold":"排障","valueOk":true,"negativeOk":true,"reason":"拆障方式 + ¬重复，三项都对"}

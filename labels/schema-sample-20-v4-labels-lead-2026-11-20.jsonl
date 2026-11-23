@@ -1,0 +1,21 @@
+{"labeler":"lead","criterion":"v1.5 + attr-definitions-v1","date":"2026-11-20","note":"schema-v4 分层抽样 20 条；只判网的字段对不对（subject/attr/value/negative），不改判该不该记"}
+{"n":1,"subjectGold":"user","attrGold":"结论","valueGold":"温州方舟永道科技有限公司","negativeGold":false,"netSubject":"other","netAttr":"unknown","reason":"公司名是事实型结论，不是归属（归属只管层级/责任分配）；谁都不用改只是我得知道→user"}
+{"n":2,"subjectGold":"product","attrGold":"位置","valueGold":"回到顶端的按钮","negativeGold":false,"netSubject":"product","netAttr":"unknown","reason":"要有某个控件属于“东西摆在哪/有没有”→位置；网没抽出属性"}
+{"n":3,"subjectGold":"agent","attrGold":"结论","valueGold":"qoder 积分将耗尽","negativeGold":false,"netSubject":"user","netAttr":"unknown","reason":"违反后我要省着用→agent；这是对当下状态的判断→结论（注意：三天测试不过，属不该记，本表只判字段）"}
+{"n":4,"subjectGold":"product","attrGold":"位置","valueGold":"覆盖在所有图层之上","negativeGold":false,"netSubject":"product","netAttr":"位置","reason":"摆在哪→位置，与网一致"}
+{"n":5,"subjectGold":"product","attrGold":"关系","valueGold":"人格与记忆缺一不可","negativeGold":false,"netSubject":"product","netAttr":"关系","reason":"两样东西的关系→关系，与网一致"}
+{"n":6,"subjectGold":"agent","attrGold":"口径","valueGold":"先量再下结论","negativeGold":false,"netSubject":"agent","netAttr":"口径","reason":"判断口径 + 约束我的做法，与网一致"}
+{"n":7,"subjectGold":"user","attrGold":"结论","valueGold":"按技术判断力/端到端交付/模型边界/产品判断力筛人","negativeGold":false,"netSubject":"other","netAttr":"口径","reason":"这是对方筛人标准的事实，不是我的口径→结论；我得知道但谁都不用改→user"}
+{"n":8,"subjectGold":"product","attrGold":"口径","valueGold":"used 口径","negativeGold":true,"netSubject":"product","netAttr":"口径","reason":"废弃某口径=¬，与网一致"}
+{"n":9,"subjectGold":"agent","attrGold":"口径","valueGold":"看违反后谁必须改","negativeGold":false,"netSubject":"project","netAttr":"口径","reason":"约束我按此判据做→agent；网判 project 过宽（subject 粗集代价）"}
+{"n":10,"subjectGold":"product","attrGold":"命名","valueGold":"涌现","negativeGold":false,"netSubject":"agent","netAttr":"命名","reason":"命名对象是系统的能力→product；网判 agent 错"}
+{"n":11,"subjectGold":"product","attrGold":"命名","valueGold":"人格","negativeGold":false,"netSubject":"product","netAttr":"命名","reason":"界面称呼→命名，与网一致"}
+{"n":12,"subjectGold":"project","attrGold":"命名","valueGold":"旧识","negativeGold":false,"netSubject":"project","netAttr":"命名","reason":"项目名，与网一致"}
+{"n":13,"subjectGold":"product","attrGold":"存留","valueGold":"dsh 关闭相关内容","negativeGold":true,"netSubject":"product","netAttr":"存留","reason":"留不留某块内容→存留，¬ 判定正确"}
+{"n":14,"subjectGold":"agent","attrGold":"口径","valueGold":"求职话题","negativeGold":true,"netSubject":"agent","netAttr":"底线","reason":"自纠（按 attr-definitions-v1 自己的反例表）：「只在求职工作区谈找工作」在 defs 里明写归 归属/口径，不是底线，更不是存留。我原来标底线偏离了已定判据——判据有例子就照例子，不凭印象。","selfCorrected":true,"attrAmbiguous":true}
+{"n":15,"subjectGold":"product","attrGold":"底线","valueGold":"自动归档旧记忆","negativeGold":true,"netSubject":"product","netAttr":"底线","reason":"产物行为红线→底线（也可辩称口径，标 attrAmbiguous）","attrAmbiguous":true}
+{"n":16,"subjectGold":"agent","attrGold":"归属","valueGold":"决定权留给用户","negativeGold":false,"netSubject":"agent","netAttr":"归属","reason":"责任分配→归属，与网一致"}
+{"n":17,"subjectGold":"product","attrGold":"归属","valueGold":"轴注册表归人格层","negativeGold":false,"netSubject":"product","netAttr":"归属","reason":"层级归属，与网一致"}
+{"n":18,"subjectGold":"project","attrGold":"结论","valueGold":"两 agent 三工作区并行","negativeGold":false,"netSubject":"project","netAttr":"归属","reason":"这是协作结构的事实→结论，不是责任分配；网用归属过宽"}
+{"n":19,"subjectGold":"user","attrGold":"归属","valueGold":"用户只充当补充角色","negativeGold":false,"netSubject":"user","netAttr":"归属","reason":"角色/责任分配→归属，与网一致"}
+{"n":20,"subjectGold":"agent","attrGold":"排障","valueGold":"从记忆提取里自行总结错误、避免重犯","negativeGold":false,"netSubject":"agent","netAttr":"排障","reason":"出问题怎么办→排障，与网一致"}

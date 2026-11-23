@@ -1,3 +1,21 @@
+## [0.69.0] - 2026-11-23
+
+### 新增：抽取网评估线（回放 → 候选 → 尺子 → 校准）
+把"抽取网到底能复现多少当年写进库的东西"变成可复算的数，从通用版仓库搬回这里一并维护。
+
+- `lib/replay*.js`（6 个模块）：多帧 zstd 逐帧解码、按目录去重、callId 配对、注入过滤、
+  结构性分母（`labelsInScope` 读不到候选集）、命题类型、结构化决定判等、分词伪迹过滤。
+- `scripts/`（12 个）：抽取、双侧结构化、判分、四套校准、分层抽样、源分布、test-retest。
+- `labels/`：判据 v1.0→v1.5、attr 定义、金标、双标与三分类标注。
+- `EVAL-CONCLUSION.md`：结论与边界。
+- `MemoryStore.previewWrite()`：只判不写，和 `write()` 共用 `#nearestDuplicate` 判据。
+
+数：pair 覆盖 0.467 / 精度 0.875 / 决定级 0.137；网侧 subject 0.80、attr 0.75（clean 0.824）、
+value 1.00、negative 1.00；漏检三分类 伪迹 15.8% / 真漏 78.9% / 空 5.3%。
+
+### 测试
+- 350 测试 / verify 57 全绿（新增 69 项评估线测试）。
+
 # 变更记录
 
 格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)，

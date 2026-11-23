@@ -1,0 +1,21 @@
+{"type":"header","version":"schema-sample-20-v1","source":"out/cand-schema-v3.jsonl","promptVersion":"schema-v3","criterion":"v1.5","count":20,"note":"按 attr×subject 分桶等距抽样；覆盖 12 attr 与 5 subject"}
+{"n":1,"sessionId":"session-d4567bf6-93d8-4ab8-ae2b-1f0845b59549","fromTurn":19,"kind":"world","subject":"product","attr":"位置","value":"覆盖全部图层之上","negative":false,"text":"窗口需要覆盖在全部图层之上"}
+{"n":2,"sessionId":"session-b850880f-e39d-4522-8bbf-674cdddf23db","fromTurn":25,"kind":"world","subject":"product","attr":"关系","value":"光效随呼吸变化","negative":false,"text":"光效需与呼吸灯联动，光团随呼吸变化，避免两者不匹配"}
+{"n":3,"sessionId":"session-9f98cd2b-7569-4003-8cc7-a7f9a3b29b56","fromTurn":1,"kind":"constraint","subject":"agent","attr":"口径","value":"找工作的话题","negative":true,"text":"只在求职工作区谈找工作，其他场合少提。"}
+{"n":4,"sessionId":"session-66664c07-c7ee-44e4-bad2-c03dde2e9a12","fromTurn":1,"kind":"fact","subject":"product","attr":"口径","value":"used","negative":true,"text":"used 口径已废弃，不再作为记忆使用统计。"}
+{"n":5,"sessionId":"session-a6f81217-2ce8-4bf6-990b-89363d9048a2","fromTurn":13,"kind":"world","subject":"project","attr":"口径","value":"按轮次锚对齐","negative":false,"text":"对照写动作而非时间：取 memory_write 的 tool/call 按轮次定位"}
+{"n":6,"sessionId":"session-bf57aa9a-7822-4ca2-a66d-076cf2871607","fromTurn":43,"kind":"self","subject":"agent","attr":"命名","value":"小鱼","negative":false,"text":"助手定名为“小鱼”，之后一直用这个名字作为自己的名字。"}
+{"n":7,"sessionId":"session-b850880f-e39d-4522-8bbf-674cdddf23db","fromTurn":1,"kind":"fact","subject":"product","attr":"命名","value":"记忆海插件","negative":false,"text":"用户的插件名为记忆海"}
+{"n":8,"sessionId":"session-bf57aa9a-7822-4ca2-a66d-076cf2871607","fromTurn":67,"kind":"world","subject":"project","attr":"命名","value":"旧识","negative":false,"text":"当前推进的项目名为旧识"}
+{"n":9,"sessionId":"session-b850880f-e39d-4522-8bbf-674cdddf23db","fromTurn":37,"kind":"world","subject":"product","attr":"存留","value":"回顾的回顾","negative":true,"text":"记忆插件的历史回顾只保留历史部分，去掉嵌套的回顾层"}
+{"n":10,"sessionId":"session-a6f81217-2ce8-4bf6-990b-89363d9048a2","fromTurn":1,"kind":"constraint","subject":"agent","attr":"底线","value":"方舟永道","negative":true,"text":"不再管方舟永道"}
+{"n":11,"sessionId":"session-d4567bf6-93d8-4ab8-ae2b-1f0845b59549","fromTurn":1,"kind":"world","subject":"product","attr":"底线","value":"帧率有保证","negative":false,"text":"面板动态运行时帧率必须有保证"}
+{"n":12,"sessionId":"session-a6f81217-2ce8-4bf6-990b-89363d9048a2","fromTurn":13,"kind":"world","subject":"project","attr":"底线","value":"抽取网自评","negative":true,"text":"外部标签三档的红线：都不许抽取网给自己打分"}
+{"n":13,"sessionId":"session-a6f81217-2ce8-4bf6-990b-89363d9048a2","fromTurn":13,"kind":"world","subject":"agent","attr":"归属","value":"审查归qwen","negative":false,"text":"分工：agent 负责编写，qwen 负责审查与判断"}
+{"n":14,"sessionId":"session-02557f61-507b-4d85-a50c-d8aa175e0f2d","fromTurn":1,"kind":"fact","subject":"other","attr":"归属","value":"温州方舟永道科技","negative":false,"text":"面试公司为温州方舟永道科技有限公司，官网 arkwayai.com。"}
+{"n":15,"sessionId":"session-a6f81217-2ce8-4bf6-990b-89363d9048a2","fromTurn":7,"kind":"world","subject":"product","attr":"归属","value":"轴注册表归人格层","negative":false,"text":"引擎只带 choice 机制与可选 axisId，轴定义与确认归人格层。"}
+{"n":16,"sessionId":"session-a6f81217-2ce8-4bf6-990b-89363d9048a2","fromTurn":7,"kind":"world","subject":"project","attr":"归属","value":"通用dsh-yu与a2a工作区","negative":false,"text":"新建两个工作区：通用 dsh-yu 与 a2a 新项目。"}
+{"n":17,"sessionId":"session-b850880f-e39d-4522-8bbf-674cdddf23db","fromTurn":7,"kind":"fact","subject":"user","attr":"归属","value":"仅一个窗口使用dsh","negative":false,"text":"只有单窗口使用 dsh，可按单实例场景判断方案影响。"}
+{"n":18,"sessionId":"session-bf57aa9a-7822-4ca2-a66d-076cf2871607","fromTurn":19,"kind":"self","subject":"agent","attr":"排障","value":"先量再下结论","negative":false,"text":"先测量再下结论，没量就说没量"}
+{"n":19,"sessionId":"session-a6f81217-2ce8-4bf6-990b-89363d9048a2","fromTurn":1,"kind":"fact","subject":"product","attr":"排障","value":"写入提醒路径抛TypeError","negative":false,"text":"写入提醒注入路径会抛 TypeError，防线失效"}
+{"n":20,"sessionId":"session-66664c07-c7ee-44e4-bad2-c03dde2e9a12","fromTurn":1,"kind":"fact","subject":"product","attr":"结论","value":"出处到用途链路断","negative":false,"text":"可追溯仅有引用链，尚未算出哪条记忆真被用上。"}

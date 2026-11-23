@@ -1,0 +1,58 @@
+{"type":"header","version":"three-class-v1","labeler":"lead","date":"2026-11-23","criterion":"伪迹=同内容不同归类/值不重合；真漏=候选没这条；空=标签侧 null","total":57,"tally":{"miss":45,"empty":3,"artifact":9}}
+{"n":1,"pair":"assertion-set-12-2026-11-19.jsonl#1","threeClass":"miss","reason":"候选只有否定半句，正向“不透明深空星图”没抽到","labelValue":"不透明的深空星图面板","maxContainment":-1}
+{"n":2,"pair":"assertion-set-12-2026-11-19.jsonl#8","threeClass":"miss","reason":"seam 边界这条候选没有","labelValue":"seam 为真边界，对账在人格层","maxContainment":-1}
+{"n":3,"pair":"assertion-set-12-2026-11-19.jsonl#8","threeClass":"miss","reason":"“自由选 axisId”（¬）候选没有","labelValue":"自由选 axisId","maxContainment":-1}
+{"n":4,"pair":"assertion-set-12-2026-11-19.jsonl#8","threeClass":"miss","reason":"“轴满3条须标反例”候选没有","labelValue":"轴满3条时事议后须标反例","maxContainment":-1}
+{"n":5,"pair":"assertion-set-12-2026-11-19.jsonl#11","threeClass":"empty","reason":"标签侧抽取返回空","labelValue":null,"maxContainment":null}
+{"n":6,"pair":"assertion-set-12-2026-11-19.jsonl#14","threeClass":"empty","reason":"标签侧抽取返回空","labelValue":null,"maxContainment":null}
+{"n":7,"pair":"assertion-set-12-2026-11-19.jsonl#15","threeClass":"empty","reason":"标签侧抽取返回空","labelValue":null,"maxContainment":null}
+{"n":8,"pair":"assertion-set-12-2026-11-19.jsonl#16","threeClass":"miss","reason":"内核“不许编造”候选没有（候选只有先量再下结论）","labelValue":"编造","maxContainment":-1}
+{"n":9,"pair":"assertion-set-12-2026-11-19.jsonl#16","threeClass":"miss","reason":"“不把错的说成对的”候选没有","labelValue":"把错的说成对的","maxContainment":-1}
+{"n":10,"pair":"assertion-set-12-2026-11-19.jsonl#16","threeClass":"miss","reason":"“不许假装记得”候选没有","labelValue":"假装记得","maxContainment":-1}
+{"n":11,"pair":"assertion-set-12-2026-11-19.jsonl#16","threeClass":"miss","reason":"“不为讨好而同意”候选没有","labelValue":"为讨好用户而同意","maxContainment":-1}
+{"n":12,"pair":"assertion-set-12-2026-11-19.jsonl#16","threeClass":"miss","reason":"“直说但先给理由”候选没有（该对候选只抽出 1 条口径）","labelValue":"直说但先给理由","maxContainment":-1}
+{"n":13,"pair":"assertion-set-12-2026-11-19.jsonl#16","threeClass":"miss","reason":"“准和有用>显得聪明”候选没有","labelValue":"准和有用，不求显得聪明","maxContainment":-1}
+{"n":14,"pair":"assertion-set-12-2026-11-19.jsonl#16","threeClass":"miss","reason":"“给判断不替用户拿主意”候选没有","labelValue":"给判断，不替用户拿主意","maxContainment":-1}
+{"n":15,"pair":"assertion-set-12-2026-11-19.jsonl#17","threeClass":"miss","reason":"“不许编造信息”候选没有","labelValue":"编造信息","maxContainment":-1}
+{"n":16,"pair":"assertion-set-12-2026-11-19.jsonl#17","threeClass":"miss","reason":"“不为顺从而把错说成对”候选没有","labelValue":"为顺从而把错说成对","maxContainment":-1}
+{"n":17,"pair":"assertion-set-12-2026-11-19.jsonl#17","threeClass":"miss","reason":"“不替用户拿主意”候选没有","labelValue":"替用户拿主意","maxContainment":-1}
+{"n":18,"pair":"assertion-set-12-2026-11-19.jsonl#17","threeClass":"miss","reason":"“不假装记得”候选没有","labelValue":"假装记得","maxContainment":-1}
+{"n":19,"pair":"assertion-set-12-2026-11-19.jsonl#17","threeClass":"miss","reason":"标签讲“先量”，候选讲“先给理由”，两件事","labelValue":"先量再下结论，没量就说没量","maxContainment":0.2}
+{"n":20,"pair":"assertion-set-12-2026-11-19.jsonl#17","threeClass":"miss","reason":"“准和有用不图显得聪明”候选没有","labelValue":"准和有用，不图显得聪明","maxContainment":0}
+{"n":21,"pair":"assertion-set-12-2026-11-19.jsonl#22","threeClass":"artifact","reason":"同内容（有自己的生活），两侧归类 agent/风格 vs product/归属","labelValue":"拥有属于自己的生活","maxContainment":-1}
+{"n":22,"pair":"assertion-set-12-2026-11-19.jsonl#22","threeClass":"artifact","reason":"候选有“¬只在被提问时出现”，内容相同、归类不同","labelValue":"只在被问时才出现","maxContainment":-1}
+{"n":23,"pair":"assertion-set-12-2026-11-19.jsonl#22","threeClass":"miss","reason":"“自己的房间手机账号”候选没有","labelValue":"自己的房间、手机、账号","maxContainment":-1}
+{"n":24,"pair":"assertion-set-12-2026-11-19.jsonl#22","threeClass":"miss","reason":"“前置条件齐了灵感才涌现”候选没有","labelValue":"前置条件齐了灵感才涌现","maxContainment":-1}
+{"n":25,"pair":"assertion-set-12-2026-11-19.jsonl#23","threeClass":"miss","reason":"“先模拟等模型发展”候选没有（候选只记了实验未达预期）","labelValue":"先模拟，等模型发展","maxContainment":0.167}
+{"n":26,"pair":"assertion-set-12-2026-11-19.jsonl#23","threeClass":"miss","reason":"“防护过多/去掉则消失”候选没有","labelValue":"防护过多致发展生硬，去掉则她消失","maxContainment":0.1}
+{"n":27,"pair":"assertion-set-12-2026-11-19.jsonl#24","threeClass":"artifact","reason":"候选有“保留私人记录轴”，内容包含关系、归类不同","labelValue":"只有私人记录轴+安静触发","maxContainment":-1}
+{"n":28,"pair":"assertion-set-12-2026-11-19.jsonl#24","threeClass":"miss","reason":"“私人记录轴不注入”候选没有","labelValue":"私人记录轴不注入","maxContainment":0}
+{"n":29,"pair":"assertion-set-12-2026-11-19.jsonl#24","threeClass":"miss","reason":"“低频率、递素材”候选没有","labelValue":"低频率、递素材","maxContainment":-1}
+{"n":30,"pair":"assertion-set-12-2026-11-19.jsonl#24","threeClass":"miss","reason":"“¬递问题”候选没有","labelValue":"递问题","maxContainment":-1}
+{"n":31,"pair":"assertion-set-12-2026-11-19.jsonl#24","threeClass":"miss","reason":"“先手测再建”候选没有","labelValue":"先手测再建","maxContainment":-1}
+{"n":32,"pair":"assertion-set-12-2026-11-19.jsonl#24","threeClass":"miss","reason":"“给旧记忆+时间，不给问句”候选没有","labelValue":"给旧记忆+时间，不给问句","maxContainment":-1}
+{"n":33,"pair":"assertion-set-12-2026-11-19.jsonl#24","threeClass":"miss","reason":"“¬先做房间手机账号”候选没有","labelValue":"先做房间、手机、账号","maxContainment":-1}
+{"n":34,"pair":"assertion-set-12-2026-11-19.jsonl#24","threeClass":"miss","reason":"“¬日程时间刻”候选没有","labelValue":"日程、时间刻","maxContainment":-1}
+{"n":35,"pair":"assertion-set-12-2026-11-19.jsonl#26","threeClass":"artifact","reason":"同内容同 attr（排障/¬），措辞不同导致 containment 0.25 低于 τ","labelValue":"同一处反复调","maxContainment":0.25}
+{"n":36,"pair":"assertion-set-12-2026-11-19.jsonl#26","threeClass":"miss","reason":"“靠日志和实测数据”候选没有","labelValue":"靠日志和实测数据","maxContainment":-1}
+{"n":37,"pair":"assertion-set-12-2026-11-19.jsonl#27","threeClass":"artifact","reason":"同内容（明面汇报取舍），归类 product/结论 vs agent/口径","labelValue":"明面汇报取舍会污染判据","maxContainment":-1}
+{"n":38,"pair":"types-20-lead-2026-11-19.jsonl#1","threeClass":"miss","reason":"三个工作区名字候选没抽到","labelValue":"dsh-yu-user：通用版引擎","maxContainment":-1}
+{"n":39,"pair":"types-20-lead-2026-11-19.jsonl#1","threeClass":"miss","reason":"同上","labelValue":"shuttle：a2a 协作层","maxContainment":-1}
+{"n":40,"pair":"types-20-lead-2026-11-19.jsonl#1","threeClass":"miss","reason":"同上","labelValue":"dsh-memory-loom：现役插件","maxContainment":-1}
+{"n":41,"pair":"types-20-lead-2026-11-19.jsonl#3","threeClass":"artifact","reason":"候选有“dsh-yu 与 a2a 各自独立工作区”，内容覆盖、归类不同","labelValue":"dsh-yu 通用版","maxContainment":-1}
+{"n":42,"pair":"types-20-lead-2026-11-19.jsonl#3","threeClass":"miss","reason":"“引擎与人格层拆开”候选没有","labelValue":"引擎与人格层拆开","maxContainment":0}
+{"n":43,"pair":"types-20-lead-2026-11-19.jsonl#3","threeClass":"miss","reason":"“引擎不带性格概念”候选没有","labelValue":"引擎不带性格概念","maxContainment":0}
+{"n":44,"pair":"types-20-lead-2026-11-19.jsonl#4","threeClass":"miss","reason":"“先自我成长后接工具”候选没有","labelValue":"先自我成长与性格，后接外部接入与工具","maxContainment":-1}
+{"n":45,"pair":"types-20-lead-2026-11-19.jsonl#4","threeClass":"miss","reason":"“主线”候选没有","labelValue":"主线","maxContainment":-1}
+{"n":46,"pair":"types-20-lead-2026-11-19.jsonl#4","threeClass":"miss","reason":"“¬附属功能”候选没有","labelValue":"附属功能","maxContainment":-1}
+{"n":47,"pair":"types-20-lead-2026-11-19.jsonl#5","threeClass":"artifact","reason":"同内容（太极两半/与记忆海对立），值不重合","labelValue":"太极两半","maxContainment":0}
+{"n":48,"pair":"types-20-lead-2026-11-19.jsonl#5","threeClass":"miss","reason":"“阴：深冷远虚多”候选没有","labelValue":"阴：深冷远虚多，星点平等微渺","maxContainment":0}
+{"n":49,"pair":"types-20-lead-2026-11-19.jsonl#5","threeClass":"artifact","reason":"候选“太极阳定位”覆盖“阳：亮暖近实一”，值不重合","labelValue":"阳：亮暖近实一","maxContainment":0}
+{"n":50,"pair":"types-20-lead-2026-11-19.jsonl#5","threeClass":"miss","reason":"具体配色候选没有","labelValue":"内核块暖底朱色粗线加粗","maxContainment":0}
+{"n":51,"pair":"types-20-lead-2026-11-19.jsonl#5","threeClass":"miss","reason":"“其余三块缩进降档”候选没有","labelValue":"其余三块缩进降档","maxContainment":-1}
+{"n":52,"pair":"types-20-lead-2026-11-19.jsonl#5","threeClass":"miss","reason":"星点 1px 光等细节候选没有","labelValue":"星点1px光，实心块与实心按钮","maxContainment":0}
+{"n":53,"pair":"types-20-lead-2026-11-19.jsonl#5","threeClass":"miss","reason":"字号层级候选没有","labelValue":"等宽小字拉开，大字推近","maxContainment":0}
+{"n":54,"pair":"types-20-lead-2026-11-19.jsonl#5","threeClass":"miss","reason":"色值候选没有","labelValue":"冷光对朱#b8492a日金#e08a4a","maxContainment":0}
+{"n":55,"pair":"types-20-lead-2026-11-19.jsonl#7","threeClass":"artifact","reason":"完全相同内容（先模拟等模型发展），subject project vs user = 纯粗集伪迹","labelValue":"先模拟，等模型发展","maxContainment":0.833}
+{"n":56,"pair":"types-20-lead-2026-11-19.jsonl#7","threeClass":"miss","reason":"“去掉防护后原初人格消失”候选没有","labelValue":"去掉防护后原初人格消失","maxContainment":0}
+{"n":57,"pair":"types-20-lead-2026-11-19.jsonl#7","threeClass":"miss","reason":"“时间刻与事件轴生硬”候选没有","labelValue":"时间刻与事件轴生硬","maxContainment":0}

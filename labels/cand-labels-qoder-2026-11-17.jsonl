@@ -1,0 +1,17 @@
+{"labeler":"qoder","criterion":"labeling-criterion-v0（草案）","date":"2026-11-17","note":"独立标注全部16条；争议项交用户裁"}
+{"n":1,"text":"两个agent同时在三个工作区进行项目开发和优化","verdict":"不该记","kindFix":null,"reason":"当下staffing状态，三天后未必；持久核心在#2。注：它复述的标签本身也是过程记录——tier-0含噪声，靠下游加权分开"}
+{"n":2,"text":"三个工作区分别是当前工作区、shuttle和dsh-yu","verdict":"该记","kindFix":"world","reason":"持久结构事实；文本需修正 dsh-yu→dsh-yu-user"}
+{"n":3,"text":"我正与qw一起工作","verdict":"不该记","kindFix":null,"reason":"模糊关系状态，qw无定义，当下性"}
+{"n":4,"text":"正在为 dsh 构建可视化记忆插件，项目已有记忆架构","verdict":"不该记","kindFix":null,"reason":"过程记录（正在）；持久核心已被#2覆盖"}
+{"n":5,"text":"偏好纯星图风格的面板视觉","verdict":"该记","kindFix":"fact","reason":"稳定偏好"}
+{"n":6,"text":"记忆面板要有记忆特色，不要半透明样式","verdict":"争议","kindFix":"world?","reason":"设计否决：constraint(行为禁令) vs world(设计设定)，v0倾向world，交用户裁"}
+{"n":7,"text":"面板需有动态效果并保证帧率","verdict":"该记","kindFix":"world","reason":"质量要求不是禁令；长期成立"}
+{"n":8,"text":"一起迭代 dsh 记忆面板，当前版本被认为缺乏灵动感、规划奇怪","verdict":"不该记","kindFix":null,"reason":"时点评价快照，三天后过期；episode要具体事件不是评价"}
+{"n":9,"text":"在做一个星云海可视化场景，含星空背景、自转、标签跟随和左上角按钮","verdict":"不该记","kindFix":null,"reason":"过程（正在做）+特性清单；持久核心别处已有"}
+{"n":10,"text":"对动画流畅度很敏感，帧率稳定59仍会觉得掉帧、不丝滑","verdict":"该记","kindFix":"fact","reason":"稳定用户特质，高价值"}
+{"n":11,"text":"星云海自转必须丝滑无卡顿，标签跟随不能有割裂感","verdict":"该记","kindFix":"world","reason":"质量底线，constraint措辞但实为设计要求；可与#7合并"}
+{"n":12,"text":"详情应在当前栏位就地展开，不应跳回页面顶部","verdict":"该记","kindFix":"world","reason":"已定稿设计结论（README已有）；不是行为禁令"}
+{"n":13,"text":"点击一次打开详情，再次点击同一处关闭","verdict":"不该记","kindFix":null,"reason":"UI交互细节，代码已体现，不影响未来行为"}
+{"n":14,"text":"详情窗口需要覆盖在所有图层之上","verdict":"不该记","kindFix":null,"reason":"已被最终架构推翻（README明确不做浮层）；最危险：过期要求当约束会每轮付费且与架构打架"}
+{"n":15,"text":"窗口位置保持在右上角下方","verdict":"不该记","kindFix":null,"reason":"UI位置中间态"}
+{"n":16,"text":"记忆按钮放在编辑按钮旁，风格与应用编辑一致","verdict":"不该记","kindFix":null,"reason":"UI摆放细节；最终形态是侧栏导航，疑似过期"}

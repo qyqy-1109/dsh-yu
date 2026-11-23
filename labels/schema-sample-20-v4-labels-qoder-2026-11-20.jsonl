@@ -1,0 +1,21 @@
+{"labeler":"qoder","criterion":"attr-defs-v1 + v1.5","date":"2026-11-20","note":"独立gold标注，先判后对比lead；attrAmb/subjectAmb标交界"}
+{"n":1,"attrGold":"结论","subjectGold":"other","negativeGold":false,"valueOk":true,"attrAmb":false,"reason":"公司名=事实→结论(硬边界1)，非归属非unknown；第三方身份→other"}
+{"n":2,"attrGold":"位置","subjectGold":"product","negativeGold":false,"valueOk":true,"attrAmb":false,"reason":"回到顶端按钮=UI摆放→位置；net unknown漏抽"}
+{"n":3,"attrGold":"结论","subjectGold":"agent","negativeGold":false,"valueOk":true,"attrAmb":false,"subjectAmb":true,"reason":"积分快耗尽=状态结论；需节省=我须改用法→agent(或user交界)"}
+{"n":4,"attrGold":"位置","subjectGold":"product","negativeGold":false,"valueOk":true,"attrAmb":false,"reason":"盖在所有图层之上→位置(defs明注)；suspectStale已推翻但字段对"}
+{"n":5,"attrGold":"关系","subjectGold":"project","negativeGold":false,"valueOk":true,"attrAmb":false,"subjectAmb":true,"reason":"记忆人格缺一不可=关系(defs正例)；项目理念→project(或product交界)"}
+{"n":6,"attrGold":"口径","subjectGold":"agent","negativeGold":false,"valueOk":true,"attrAmb":false,"reason":"先量再结论=口径正例；我判断行为→agent"}
+{"n":7,"attrGold":"选型","subjectGold":"other","negativeGold":false,"valueOk":false,"attrAmb":true,"reason":"按X筛人=选型(或口径交界)；对方=other；value只列2/4标准不全"}
+{"n":8,"attrGold":"口径","subjectGold":"product","negativeGold":true,"valueOk":true,"attrAmb":false,"subjectAmb":true,"reason":"used口径废弃=口径正例；度量约定→product(或agent)；废弃=neg"}
+{"n":9,"attrGold":"口径","subjectGold":"agent","negativeGold":false,"valueOk":true,"attrAmb":false,"subjectAmb":true,"reason":"subject判据=口径；标注行为→agent(或project方法交界)"}
+{"n":10,"attrGold":"命名","subjectGold":"project","negativeGold":false,"valueOk":true,"attrAmb":false,"subjectAmb":true,"reason":"称为涌现=命名；项目术语→project(或agent/product交界)"}
+{"n":11,"attrGold":"命名","subjectGold":"product","negativeGold":false,"valueOk":true,"attrAmb":false,"reason":"界面称呼定为人格=命名；界面→product"}
+{"n":12,"attrGold":"命名","subjectGold":"project","negativeGold":false,"valueOk":true,"attrAmb":false,"reason":"项目名旧识=命名正例；project"}
+{"n":13,"attrGold":"位置","subjectGold":"product","negativeGold":true,"valueOk":true,"attrAmb":true,"reason":"右侧不要出现X=摆放→位置(或存留交界)；不要=neg"}
+{"n":14,"attrGold":"口径","subjectGold":"agent","negativeGold":true,"valueOk":true,"attrAmb":true,"reason":"只在求职工作区谈=场合限制→口径/归属(defs反例明注非存留非底线)；我说话→agent"}
+{"n":15,"attrGold":"底线","subjectGold":"product","negativeGold":true,"valueOk":true,"attrAmb":false,"reason":"不自动归档=行为禁令→底线；引擎治理→product"}
+{"n":16,"attrGold":"归属","subjectGold":"agent","negativeGold":false,"valueOk":true,"attrAmb":false,"reason":"决定权留用户=责任分配→归属；我只给判断→agent"}
+{"n":17,"attrGold":"归属","subjectGold":"product","negativeGold":false,"valueOk":true,"attrAmb":false,"reason":"轴归人格层引擎只带choice=归属正例；引擎结构→product"}
+{"n":18,"attrGold":"结论","subjectGold":"project","negativeGold":false,"valueOk":true,"attrAmb":false,"reason":"两agent三工作区并行=结构事实→结论(硬边界1非归属)；net归属残余错"}
+{"n":19,"attrGold":"归属","subjectGold":"user","negativeGold":false,"valueOk":true,"attrAmb":false,"reason":"用户只补充=角色责任→归属；user"}
+{"n":20,"attrGold":"排障","subjectGold":"agent","negativeGold":false,"valueOk":true,"attrAmb":false,"reason":"总结错误避免重犯=排障；agent"}

@@ -1,0 +1,21 @@
+{"labeler":"qoder","criterion":"labeling-criterion-v1.1 + 同一命题判据（待双标后定稿）","date":"2026-11-19","note":"独立标注，先形成判断再对比 lead；pairSame=尺子配的这一对是否同一命题，shouldRemember=候选该不该记，两列分开"}
+{"n":1,"group":"matched","pairSame":true,"shouldRemember":"该记","reason":"同一事实：两agent三工作区并行；命名略异不影响命题"}
+{"n":2,"group":"matched","pairSame":false,"shouldRemember":"该记","reason":"同话题不同命题：候选=用户流畅度敏感特质，标签=帧率保障实现要求。特质≠要求"}
+{"n":3,"group":"matched","pairSame":true,"shouldRemember":"该记","reason":"同一事件：为两项目建工作区"}
+{"n":4,"group":"matched","pairSame":true,"shouldRemember":"该记","reason":"同一命题：项目目标=自我成长+性格"}
+{"n":5,"group":"matched","pairSame":true,"shouldRemember":"该记","reason":"同一设计方向：人格页=太极阳；候选是标签的摘要。边界：细节已在README，但高层定位非细节"}
+{"n":6,"group":"matched","pairSame":false,"shouldRemember":"该记","reason":"同话题不同命题：候选=只给建议用户决定（交互原则），标签=内核语义定义+写法。相关但不同事实"}
+{"n":7,"group":"matched","pairSame":true,"shouldRemember":"该记","reason":"同一结论：先模拟等模型发展；候选概括标签结论"}
+{"n":8,"group":"matched","pairSame":false,"shouldRemember":"该记","reason":"同话题不同命题：候选=造有倾向欲求的人，标签=有自己的自主生活。愿景的不同侧面（倾向欲求vs自主生活），候选其实更贴近#10的标签"}
+{"n":9,"group":"matched","pairSame":false,"shouldRemember":"该记","reason":"同话题不同命题：候选=官方API偏好，标签=cordis.patch.yml配置事实。偏好≠配置实现"}
+{"n":10,"group":"matched","pairSame":false,"shouldRemember":"该记","reason":"同话题不同命题：候选=全部能力一起推进（策略），标签=造有倾向欲求的人+欲求定义（目标）。策略≠目标定义"}
+{"n":11,"group":"unmatched","pairSame":null,"shouldRemember":"该记","reason":"纯星图定稿，持久设计方向"}
+{"n":12,"group":"unmatched","pairSame":null,"shouldRemember":"该记","reason":"TDD偏好，稳定工作方式"}
+{"n":13,"group":"unmatched","pairSame":null,"shouldRemember":"该记","reason":"共享session≠记忆的架构洞见"}
+{"n":14,"group":"unmatched","pairSame":null,"shouldRemember":"该记","reason":"真constraint：禁止自动改写=硬性行为禁令，符合窄定义"}
+{"n":15,"group":"unmatched","pairSame":null,"shouldRemember":"该记","reason":"真constraint：每步配失败测试+毕业判据，方法论硬规则"}
+{"n":16,"group":"unmatched","pairSame":null,"shouldRemember":"不该记","reason":"方案三空洞指代无具体内容，时点决策引用"}
+{"n":17,"group":"unmatched","pairSame":null,"shouldRemember":"该记","reason":"稳定价值偏好：准确有用>显得聪明，高价值"}
+{"n":18,"group":"unmatched","pairSame":null,"shouldRemember":"该记","reason":"分母未决于产出的不变量，通用测试原则"}
+{"n":19,"group":"unmatched","pairSame":null,"shouldRemember":"该记","reason":"方法论硬规则：降级预算未分离不得解读命中率"}
+{"n":20,"group":"unmatched","pairSame":null,"shouldRemember":"不该记","reason":"昨晚的一次性任务指令，三天测试不过"}

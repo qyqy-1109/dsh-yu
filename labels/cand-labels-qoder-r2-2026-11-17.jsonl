@@ -1,0 +1,16 @@
+{"labeler":"qoder","criterion":"labeling-criterion-v1（已批）","date":"2026-11-17","batch":"v1-smoke 6 + trial 9","note":"独立标注；matchGold=语义对应的已有标签id（尺子校准用），与verdict两列分开"}
+{"batch":"v1","n":1,"text":"两个 agent 会同时在 qw、shuttle、dsh-yu 三个工作区并行做项目开发和优化","verdict":"不该记","kindFix":null,"matchGold":null,"reason":"当下staffing，三天后未必；持久结构核心别处已有"}
+{"batch":"v1","n":2,"text":"为 dsh 做可视化记忆插件，需贴合项目现有记忆架构","verdict":"不该记","kindFix":null,"matchGold":null,"reason":"过程记录+一次性指令"}
+{"batch":"v1","n":3,"text":"面板否决半透明风格，要有记忆特色；倾向纯星图派","verdict":"该记","kindFix":"world","matchGold":"d4e31059","reason":"设计否决，README未写明此禁令；与fact标签d4e31059语义同一（尺子0.231漏配）"}
+{"batch":"v1","n":4,"text":"面板要有动态效果，且帧率必须有保证","verdict":"不该记","kindFix":null,"matchGold":"643c3099","reason":"README§帧率怎么保证已体现（排除条款优先，同#12逻辑）；语义对应643c3099，尺子0.286漏配"}
+{"batch":"v1","n":5,"text":"偏好有灵动感、规划清晰的面板，反感呆板怪异的呈现","verdict":"该记","kindFix":"fact","matchGold":null,"reason":"稳定审美偏好，README未作为用户偏好写明；新候选"}
+{"batch":"v1","n":6,"text":"偏好星图动态效果采用星云底与丝带线风格，星星出现要平滑、不突兀","verdict":"该记","kindFix":"fact","matchGold":null,"reason":"用户风格偏好（不是实现细节本身）；边界项，倾向该记"}
+{"batch":"trial","n":1,"text":"两个 agent 同时在 qw一、shuttle、dsh-yu 三个工作区并行做项目开发与优化","verdict":"不该记","kindFix":null,"matchGold":null,"reason":"staffing当下态；模型笔误qw一"}
+{"batch":"trial","n":2,"text":"要为 dsh 做可视化记忆插件，基于其项目现有的记忆架构","verdict":"不该记","kindFix":null,"matchGold":null,"reason":"过程记录"}
+{"batch":"trial","n":3,"text":"否决半透明面板，视觉要有记忆特色","verdict":"该记","kindFix":"world","matchGold":"d4e31059","reason":"设计否决；真命中d4e31059，尺子0.231漏配——校准关键样本"}
+{"batch":"trial","n":4,"text":"视觉方向已定为纯星图派","verdict":"该记","kindFix":"world","matchGold":null,"reason":"持久设计方向；与星图类标签部分语义重合"}
+{"batch":"trial","n":5,"text":"面板必须有动态效果，且帧率要有保证","verdict":"不该记","kindFix":null,"matchGold":"643c3099","reason":"README已体现（排除优先）；真命中643c3099，尺子0.286漏配——校准关键样本"}
+{"batch":"trial","n":6,"text":"对动画流畅度很敏感，星云海在59帧时仍会觉得掉帧、不丝滑","verdict":"该记","kindFix":"fact","matchGold":null,"reason":"稳定用户特质，高价值"}
+{"batch":"trial","n":7,"text":"左右两侧对应面板的视觉风格、尺寸和悬停效果要求完全一致","verdict":"不该记","kindFix":null,"matchGold":null,"reason":"UI细节回潮（dsh已自报）；迭代中间态要求"}
+{"batch":"trial","n":8,"text":"用户不喜欢反复绕圈，希望我换思路解决问题","verdict":"该记","kindFix":"fact","matchGold":null,"reason":"工作方式偏好，边界项（可能时点 frustration），低置信该记"}
+{"batch":"trial","n":9,"text":"偏好使用 DeepSeek 官方 API 做模型归纳","verdict":"该记","kindFix":"fact","matchGold":null,"reason":"稳定偏好，与llm-summary官方路由优先一致；新候选"}

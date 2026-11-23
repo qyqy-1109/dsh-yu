@@ -1,0 +1,37 @@
+{"labeler":"lead","criterion":"v1.1 + v1.2 + v1.3（决定三元组）","date":"2026-11-19","note":"人审池 36 条（被类型门拒但尺子配上）；pairSame 判『是不是同一个决定』，与 verdict 分离"}
+{"n":1,"pairSame":true,"verdict":"该记","subject":"面板","attr":"透风格","value":"¬半透明","reason":"候选说“半透明已否决”，标签说“明确拒绝半透明玻璃拟态”，同一个决定，措辞不同（事实 vs 偏好）"}
+{"n":2,"pairSame":false,"verdict":"不该记","subject":"面板","attr":null,"value":null,"reason":"候选是过程记录（做过、第一版被否），标签是偏好；且过程记录本身不该记"}
+{"n":3,"pairSame":false,"verdict":"该记","subject":"面板","attr":"路线","value":"星图+高帧率","reason":"标签讲的是否决半透明，候选讲的是“之后应走星图高帧率”策略，不同决定"}
+{"n":4,"pairSame":false,"verdict":"该记","subject":"动效","attr":"参考源","value":"BV17jx761EnR","reason":"标签的参考源是 asdfd3/3d-memory-sea 且是最终形态；参考源不同、对象状态不同"}
+{"n":5,"pairSame":false,"verdict":"该记","subject":"用户","attr":"流畅敏感","value":"高","reason":"候选是用户特质，标签是“必须有帧率保障+降档+FPS读数”的实现要求"}
+{"n":6,"pairSame":false,"verdict":"该记","subject":"用户","attr":"验收口径","value":"实际观感","reason":"候选讲验收方式，标签讲实现要求；不同决定"}
+{"n":7,"pairSame":false,"verdict":"该记","subject":"架构","attr":"适用性","value":"super-agent","reason":"标签讲共享 session 与记忆的取舍目标，候选讲架构选型评价"}
+{"n":8,"pairSame":true,"verdict":"该记","subject":"轴注册表","attr":"归属","value":"人格层","reason":"同一条决定（轴归人格层、引擎只留 choice+axisId），候选写成事实、标签写成认账+补丁——典型措辞错位"}
+{"n":9,"pairSame":false,"verdict":"该记","subject":"用户","attr":"视觉质感","value":"排斥廉价感","reason":"候选是用户要求，标签是四个根因与修复记录"}
+{"n":10,"pairSame":false,"verdict":"不该记","subject":"星图优化","attr":"方案","value":"先2后3","reason":"自纠：与 #16“已确定采用方案三”同型——“方案2/方案3”是脱窗即失效的空洞指代，按同一判据应判不该记。我最初判该记是自己那条判据没执行到底。pairSame 仍为 false。","selfCorrected":true}
+{"n":11,"pairSame":true,"verdict":"该记","subject":"项目","attr":"顺序","value":"先成长自我再接手脚","reason":"同一个方向决定；候选写“希望…”，标签写“取舍已定”"}
+{"n":12,"pairSame":false,"verdict":"该记","subject":"项目","attr":"顺序","value":"先成长自我","reason":"候选是策略，标签是对系统的判断（还不是会成长的自我），不同"}
+{"n":13,"pairSame":false,"verdict":"该记","subject":"记忆系统","attr":"推进方式","value":"逐步定规格","reason":"标签是三条具体纪律（预算上限等），不是“逐步定规格”这条策略"}
+{"n":14,"pairSame":true,"verdict":"该记","subject":"记忆与人格","attr":"关系","value":"缺一不可","reason":"同一判断，候选是转述、标签是原话+推论"}
+{"n":15,"pairSame":true,"verdict":"该记","subject":"内核","attr":"底线","value":"不编造/不迎合","reason":"同一内核条目，标签是初稿原文"}
+{"n":16,"pairSame":true,"verdict":"该记","subject":"内核","attr":"判断起点","value":"先量再下结论","reason":"同一内核条目"}
+{"n":17,"pairSame":true,"verdict":"该记","subject":"内核","attr":"分寸","value":"直说但先给理由","reason":"同一内核条目"}
+{"n":18,"pairSame":false,"verdict":"该记","subject":"分工","attr":"决定权","value":"归用户","reason":"标签是内核对 costume 的定义澄清，不是分工原则"}
+{"n":19,"pairSame":false,"verdict":"该记","subject":"项目","attr":"目标","value":"接入联动做减法","reason":"标签是方案主轴（确定性在外），不是目标"}
+{"n":20,"pairSame":false,"verdict":"该记","subject":"架构","attr":"形态","value":"底座+插件/MCP","reason":"与标签的方案主轴不同决定"}
+{"n":21,"pairSame":false,"verdict":"该记","subject":"老板","attr":"要求","value":"ChatGPT 式模式切换","reason":"标签讲三产品接入与减法、底座不能做成插件；不同要求"}
+{"n":22,"pairSame":true,"verdict":"该记","subject":"用户","attr":"最终形态","value":"有自己的生活","reason":"同一愿景，措辞几乎重合"}
+{"n":23,"pairSame":true,"verdict":"该记","subject":"旧识","attr":"实验结论","value":"生硬/做不到","reason":"同一实验与结论"}
+{"n":24,"pairSame":true,"verdict":"该记","subject":"私人记录轴","attr":"存留","value":"保留+位置自定","reason":"同一决定的一部分，取值包含"}
+{"n":25,"pairSame":false,"verdict":"不该记","subject":"用户","attr":"兴趣","value":"该议题","reason":"“很感兴趣”是态度/过程，不构成可复用的决定"}
+{"n":26,"pairSame":true,"verdict":"该记","subject":"用户","attr":"排障方式","value":"换思路别绕圈","reason":"同一要求，候选写偏好、标签写要求"}
+{"n":27,"pairSame":true,"verdict":"该记","subject":"取舍汇报","attr":"是否明面","value":"不汇报","reason":"同一规矩，措辞不同"}
+{"n":28,"pairSame":false,"verdict":"该记","subject":"助手","attr":"名字","value":"新名字","reason":"标签是内核语义口径，不是命名事实"}
+{"n":29,"pairSame":false,"verdict":"该记","subject":"模型归纳","attr":"选型","value":"官方 API","reason":"标签是配置事实，不是选型偏好"}
+{"n":30,"pairSame":false,"verdict":"该记","subject":"旧识","attr":"目标","value":"记得+有思想+可追溯","reason":"与内核口径不同决定"}
+{"n":31,"pairSame":false,"verdict":"该记","subject":"旧识","attr":"线索分工","value":"用户补充","reason":"标签是包名事故记录，无关"}
+{"n":32,"pairSame":false,"verdict":"该记","subject":"旧识","attr":"推进方式","value":"全能力一起","reason":"标签是目标定义（有倾向有欲求），不是推进策略"}
+{"n":33,"pairSame":false,"verdict":"该记","subject":"助手","attr":"说话风格","value":"去 AI 味","reason":"标签是内核口径，不是风格反馈"}
+{"n":34,"pairSame":false,"verdict":"该记","subject":"助手","attr":"称呼","value":"小鱼","reason":"标签是内核口径，无关"}
+{"n":35,"pairSame":false,"verdict":"不该记","subject":"我","attr":"失误","value":"没记住反馈","reason":"自我过程记录，属当轮反思，不是可复用结论"}
+{"n":36,"pairSame":false,"verdict":"该记","subject":"用户","attr":"降级偏好","value":"反感静默降级","reason":"标签是桌面实测读数，无关"}

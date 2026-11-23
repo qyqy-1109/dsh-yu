@@ -1,0 +1,21 @@
+{"type":"header","version":"field-sample-v1","source":"labels/schema-pairs-adopted-2026-11-23.jsonl","promptVersion":"schema-v5.1","count":20}
+{"n":1,"key":"assertion-set-12-2026-11-19.jsonl#1#candidate","decisionIndex":0,"text":"半透明面板风格已被否决，不再采用","subject":"product","attr":"风格","value":"半透明面板","negative":true}
+{"n":2,"key":"assertion-set-12-2026-11-19.jsonl#8#candidate","decisionIndex":0,"text":"轴注册表与轴定义归人格层，引擎只保留 choice 机制和可选 axisId。","subject":"product","attr":"归属","value":"轴注册表与轴定义归人格层","negative":false}
+{"n":3,"key":"assertion-set-12-2026-11-19.jsonl#8#candidate","decisionIndex":1,"text":"轴注册表与轴定义归人格层，引擎只保留 choice 机制和可选 axisId。","subject":"product","attr":"归属","value":"choice 机制与可选 axisId","negative":false}
+{"n":4,"key":"assertion-set-12-2026-11-19.jsonl#11#candidate","decisionIndex":0,"text":"希望记忆系统能在聊天与工作中总结成长，并形成有自身性格的自我。","subject":"product","attr":"风格","value":"有自身性格的自我","negative":false}
+{"n":5,"key":"assertion-set-12-2026-11-19.jsonl#11#candidate","decisionIndex":1,"text":"希望记忆系统能在聊天与工作中总结成长，并形成有自身性格的自我。","subject":"product","attr":"unknown","value":"聊天与工作中总结成长","negative":false}
+{"n":6,"key":"assertion-set-12-2026-11-19.jsonl#14#candidate","decisionIndex":0,"text":"认为记忆与人格缺一不可，二者齐备才算灵魂。","subject":"user","attr":"关系","value":"记忆与人格缺一不可","negative":false}
+{"n":7,"key":"assertion-set-12-2026-11-19.jsonl#15#candidate","decisionIndex":0,"text":"不许编造、不许假装记得，也不许为迎合把错的说成对的","subject":"agent","attr":"底线","value":"编造","negative":true}
+{"n":8,"key":"assertion-set-12-2026-11-19.jsonl#15#candidate","decisionIndex":1,"text":"不许编造、不许假装记得，也不许为迎合把错的说成对的","subject":"agent","attr":"底线","value":"假装记得","negative":true}
+{"n":9,"key":"assertion-set-12-2026-11-19.jsonl#15#candidate","decisionIndex":2,"text":"不许编造、不许假装记得，也不许为迎合把错的说成对的","subject":"agent","attr":"底线","value":"迎合把错说成对","negative":true}
+{"n":10,"key":"assertion-set-12-2026-11-19.jsonl#16#candidate","decisionIndex":0,"text":"下结论前必须先量，没量就直说没量","subject":"agent","attr":"口径","value":"先量再下结论","negative":false}
+{"n":11,"key":"assertion-set-12-2026-11-19.jsonl#17#candidate","decisionIndex":0,"text":"希望直说但先给理由，说话像人一点","subject":"agent","attr":"风格","value":"直说，不绕弯","negative":false}
+{"n":12,"key":"assertion-set-12-2026-11-19.jsonl#17#candidate","decisionIndex":1,"text":"希望直说但先给理由，说话像人一点","subject":"agent","attr":"顺序","value":"先给理由再给结论","negative":false}
+{"n":13,"key":"assertion-set-12-2026-11-19.jsonl#17#candidate","decisionIndex":2,"text":"希望直说但先给理由，说话像人一点","subject":"agent","attr":"风格","value":"说话像人、自然口语","negative":false}
+{"n":14,"key":"assertion-set-12-2026-11-19.jsonl#22#candidate","decisionIndex":0,"text":"希望AI有自己的生活、想法和秘密，而不是只在被提问时出现。","subject":"agent","attr":"风格","value":"有自己的生活想法与秘密","negative":false}
+{"n":15,"key":"assertion-set-12-2026-11-19.jsonl#22#candidate","decisionIndex":1,"text":"希望AI有自己的生活、想法和秘密，而不是只在被提问时出现。","subject":"agent","attr":"风格","value":"只在被提问时出现","negative":true}
+{"n":16,"key":"assertion-set-12-2026-11-19.jsonl#23#candidate","decisionIndex":0,"text":"旧识的时间刻/事件轴模拟自主发展未达预期，效果生硬；去除防护后原角色仍消失。","subject":"product","attr":"结论","value":"时间刻/事件轴自主发展生硬","negative":false}
+{"n":17,"key":"assertion-set-12-2026-11-19.jsonl#23#candidate","decisionIndex":1,"text":"旧识的时间刻/事件轴模拟自主发展未达预期，效果生硬；去除防护后原角色仍消失。","subject":"product","attr":"结论","value":"去除防护后原角色仍消失","negative":false}
+{"n":18,"key":"assertion-set-12-2026-11-19.jsonl#24#candidate","decisionIndex":0,"text":"允许我保留自己的私人记录轴，放在哪里由我决定","subject":"user","attr":"存留","value":"保留私人记录轴","negative":false}
+{"n":19,"key":"assertion-set-12-2026-11-19.jsonl#24#candidate","decisionIndex":1,"text":"允许我保留自己的私人记录轴，放在哪里由我决定","subject":"user","attr":"位置","value":"存放位置自定","negative":false}
+{"n":20,"key":"assertion-set-12-2026-11-19.jsonl#26#candidate","decisionIndex":0,"text":"讨厌反复绕圈子的尝试，希望我换思路，而不是重复同一种做法","subject":"agent","attr":"排障","value":"重复同一种做法","negative":true}

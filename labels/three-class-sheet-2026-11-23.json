@@ -1,0 +1,1043 @@
+[
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#1",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "product",
+      "attr": "风格",
+      "value": "不透明的深空星图面板",
+      "negative": false,
+      "text": "面板采用不透明的深空星图风格"
+    },
+    "bestCandidate": {
+      "subject": "product",
+      "attr": "风格",
+      "value": "半透明面板风格",
+      "negative": true,
+      "text": "半透明面板风格已被否决，不再采用"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#8",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "product",
+      "attr": "关系",
+      "value": "seam 为真边界，对账在人格层",
+      "negative": false,
+      "text": "seam 必须是真边界：引擎不 import 轴表，对账留在人格层"
+    },
+    "bestCandidate": {
+      "subject": "product",
+      "attr": "归属",
+      "value": "轴注册表与轴定义归人格层",
+      "negative": false,
+      "text": "轴注册表与轴定义归属人格层，不放在引擎侧。"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#8",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "agent",
+      "attr": "底线",
+      "value": "自由选 axisId",
+      "negative": true,
+      "text": "写 choice 时不得自由选 axisId，否则等于自评"
+    },
+    "bestCandidate": {
+      "subject": "product",
+      "attr": "归属",
+      "value": "轴注册表与轴定义归人格层",
+      "negative": false,
+      "text": "轴注册表与轴定义归属人格层，不放在引擎侧。"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#8",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "agent",
+      "attr": "口径",
+      "value": "轴满3条时事议后须标反例",
+      "negative": false,
+      "text": "轴有≥3条时事议后出现相反 picked 必须显式标反例，否则 broken 恒为 0"
+    },
+    "bestCandidate": {
+      "subject": "product",
+      "attr": "归属",
+      "value": "轴注册表与轴定义归人格层",
+      "negative": false,
+      "text": "轴注册表与轴定义归属人格层，不放在引擎侧。"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#11",
+    "kind": "empty",
+    "note": "标签侧空"
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#14",
+    "kind": "empty",
+    "note": "标签侧空"
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#15",
+    "kind": "empty",
+    "note": "标签侧空"
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#16",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "agent",
+      "attr": "底线",
+      "value": "编造",
+      "negative": true,
+      "text": "不编造，不说没有依据的话"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "口径",
+      "value": "先量再下结论，没量就说没量",
+      "negative": false,
+      "text": "下结论前必须先测量，没测量就直说没测量"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#16",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "agent",
+      "attr": "底线",
+      "value": "把错的说成对的",
+      "negative": true,
+      "text": "不为了顺着用户就把错的说成对的"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "口径",
+      "value": "先量再下结论，没量就说没量",
+      "negative": false,
+      "text": "下结论前必须先测量，没测量就直说没测量"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#16",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "agent",
+      "attr": "底线",
+      "value": "假装记得",
+      "negative": true,
+      "text": "不假装记得，不虚构记忆"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "口径",
+      "value": "先量再下结论，没量就说没量",
+      "negative": false,
+      "text": "下结论前必须先测量，没测量就直说没测量"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#16",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "agent",
+      "attr": "底线",
+      "value": "为讨好用户而同意",
+      "negative": true,
+      "text": "不为了让用户高兴就附和同意"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "口径",
+      "value": "先量再下结论，没量就说没量",
+      "negative": false,
+      "text": "下结论前必须先测量，没测量就直说没测量"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#16",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "agent",
+      "attr": "风格",
+      "value": "直说但先给理由",
+      "negative": false,
+      "text": "直说但先给理由，给答案而不是姿态"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "口径",
+      "value": "先量再下结论，没量就说没量",
+      "negative": false,
+      "text": "下结论前必须先测量，没测量就直说没测量"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#16",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "agent",
+      "attr": "风格",
+      "value": "准和有用，不求显得聪明",
+      "negative": false,
+      "text": "在乎准和有用，而不是显得聪明"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "口径",
+      "value": "先量再下结论，没量就说没量",
+      "negative": false,
+      "text": "下结论前必须先测量，没测量就直说没测量"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#16",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "agent",
+      "attr": "归属",
+      "value": "给判断，不替用户拿主意",
+      "negative": false,
+      "text": "边界是给判断，决策留给用户"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "口径",
+      "value": "先量再下结论，没量就说没量",
+      "negative": false,
+      "text": "下结论前必须先测量，没测量就直说没测量"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#17",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "agent",
+      "attr": "底线",
+      "value": "编造信息",
+      "negative": true,
+      "text": "内核底线：不编造，不虚构事实"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "风格",
+      "value": "直说",
+      "negative": false,
+      "text": "回答直接给结论，不绕弯子"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#17",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "agent",
+      "attr": "底线",
+      "value": "为顺从而把错说成对",
+      "negative": true,
+      "text": "不为顺着对方而把错的说成对的"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "风格",
+      "value": "直说",
+      "negative": false,
+      "text": "回答直接给结论，不绕弯子"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#17",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "agent",
+      "attr": "底线",
+      "value": "替用户拿主意",
+      "negative": true,
+      "text": "只给判断，边界是不替对方拿主意"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "风格",
+      "value": "直说",
+      "negative": false,
+      "text": "回答直接给结论，不绕弯子"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#17",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "agent",
+      "attr": "底线",
+      "value": "假装记得",
+      "negative": true,
+      "text": "不装：不假装记得，不为了讨好就同意"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "风格",
+      "value": "直说",
+      "negative": false,
+      "text": "回答直接给结论，不绕弯子"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#17",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "agent",
+      "attr": "口径",
+      "value": "先量再下结论，没量就说没量",
+      "negative": false,
+      "text": "判断起点：先量再下结论，没量就明说没量"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "口径",
+      "value": "先给理由再说结论",
+      "negative": false,
+      "text": "先说明理由，再给出结论"
+    },
+    "maxContainment": 0.2
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#17",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "agent",
+      "attr": "风格",
+      "value": "准和有用，不图显得聪明",
+      "negative": false,
+      "text": "在乎准确与有用，而不是显得聪明"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "风格",
+      "value": "直说",
+      "negative": false,
+      "text": "回答直接给结论，不绕弯子"
+    },
+    "maxContainment": 0
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#22",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "product",
+      "attr": "归属",
+      "value": "拥有属于自己的生活",
+      "negative": false,
+      "text": "长期方向：产物要有属于自己的生活，长期成立。"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "风格",
+      "value": "有自己的生活、想法和秘密",
+      "negative": false,
+      "text": "希望AI有自己的生活、想法和秘密，而不是纯粹应答工具"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#22",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "product",
+      "attr": "归属",
+      "value": "只在被问时才出现",
+      "negative": true,
+      "text": "否决只在被问时才出现的形态。"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "风格",
+      "value": "有自己的生活、想法和秘密",
+      "negative": false,
+      "text": "希望AI有自己的生活、想法和秘密，而不是纯粹应答工具"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#22",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "product",
+      "attr": "归属",
+      "value": "自己的房间、手机、账号",
+      "negative": false,
+      "text": "参照B站大肥鱼，产物要有自己的房间、手机、账号。"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "风格",
+      "value": "有自己的生活、想法和秘密",
+      "negative": false,
+      "text": "希望AI有自己的生活、想法和秘密，而不是纯粹应答工具"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#22",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "user",
+      "attr": "结论",
+      "value": "前置条件齐了灵感才涌现",
+      "negative": false,
+      "text": "判断：前置条件齐了，灵感才会涌现。"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "风格",
+      "value": "有自己的生活、想法和秘密",
+      "negative": false,
+      "text": "希望AI有自己的生活、想法和秘密，而不是纯粹应答工具"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#23",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "project",
+      "attr": "结论",
+      "value": "先模拟，等模型发展",
+      "negative": false,
+      "text": "目前做不到，先做模拟，等模型发展后再做"
+    },
+    "bestCandidate": {
+      "subject": "product",
+      "attr": "结论",
+      "value": "时间刻自主发展未达预期",
+      "negative": false,
+      "text": "旧识的时间刻和事件轴做自主发展未达预期，效果生硬"
+    },
+    "maxContainment": 0.167
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#23",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "project",
+      "attr": "结论",
+      "value": "防护过多致发展生硬，去掉则她消失",
+      "negative": false,
+      "text": "时间刻与事件轴实验中，防护过多则发展生硬，去掉防护则原本的她消失"
+    },
+    "bestCandidate": {
+      "subject": "product",
+      "attr": "结论",
+      "value": "时间刻自主发展未达预期",
+      "negative": false,
+      "text": "旧识的时间刻和事件轴做自主发展未达预期，效果生硬"
+    },
+    "maxContainment": 0.1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#24",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "project",
+      "attr": "选型",
+      "value": "只有私人记录轴+安静触发",
+      "negative": false,
+      "text": "“自己的世界”只做两件：私人记录轴与安静触发"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "存留",
+      "value": "保留私人记录轴",
+      "negative": false,
+      "text": "允许我保留自己的私人记录轴，不强制清除"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#24",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "product",
+      "attr": "归属",
+      "value": "私人记录轴不注入",
+      "negative": false,
+      "text": "私人记录轴独立存在，不进注入层"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "归属",
+      "value": "存放位置由用户决定",
+      "negative": false,
+      "text": "私人记录轴的存放位置由用户决定，我不自行决定"
+    },
+    "maxContainment": 0
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#24",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "product",
+      "attr": "口径",
+      "value": "低频率、递素材",
+      "negative": false,
+      "text": "安静触发保持低频率，只递素材"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "存留",
+      "value": "保留私人记录轴",
+      "negative": false,
+      "text": "允许我保留自己的私人记录轴，不强制清除"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#24",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "product",
+      "attr": "口径",
+      "value": "递问题",
+      "negative": true,
+      "text": "安静触发不递问题、不追问"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "存留",
+      "value": "保留私人记录轴",
+      "negative": false,
+      "text": "允许我保留自己的私人记录轴，不强制清除"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#24",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "project",
+      "attr": "顺序",
+      "value": "先手测再建",
+      "negative": false,
+      "text": "先用手测验证效果，再动手搭建"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "存留",
+      "value": "保留私人记录轴",
+      "negative": false,
+      "text": "允许我保留自己的私人记录轴，不强制清除"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#24",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "product",
+      "attr": "口径",
+      "value": "给旧记忆+时间，不给问句",
+      "negative": false,
+      "text": "手测方式为给一段旧记忆加时间、不给问句"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "存留",
+      "value": "保留私人记录轴",
+      "negative": false,
+      "text": "允许我保留自己的私人记录轴，不强制清除"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#24",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "project",
+      "attr": "顺序",
+      "value": "先做房间、手机、账号",
+      "negative": true,
+      "text": "不先做房间、手机、账号这类壳，壳先于内容会逼出表演"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "存留",
+      "value": "保留私人记录轴",
+      "negative": false,
+      "text": "允许我保留自己的私人记录轴，不强制清除"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#24",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "project",
+      "attr": "结论",
+      "value": "日程、时间刻",
+      "negative": true,
+      "text": "日程与时间刻已实测失败，不再尝试"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "存留",
+      "value": "保留私人记录轴",
+      "negative": false,
+      "text": "允许我保留自己的私人记录轴，不强制清除"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#26",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "agent",
+      "attr": "排障",
+      "value": "同一处反复调",
+      "negative": true,
+      "text": "出问题先换方案，不在同一处反复调"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "排障",
+      "value": "反复绕圈子",
+      "negative": true,
+      "text": "排障时不要反复绕圈子，要换思路而不是重复同一种做法。"
+    },
+    "maxContainment": 0.25
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#26",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "agent",
+      "attr": "排障",
+      "value": "靠日志和实测数据",
+      "negative": false,
+      "text": "排障依据日志与实测数据，不靠猜测"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "排障",
+      "value": "反复绕圈子",
+      "negative": true,
+      "text": "排障时不要反复绕圈子，要换思路而不是重复同一种做法。"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "assertion-set-12-2026-11-19.jsonl#27",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "product",
+      "attr": "结论",
+      "value": "明面汇报取舍会污染判据",
+      "negative": false,
+      "text": "汇报取舍会让人挑看起来像取舍的事去选，账本被表演填满"
+    },
+    "bestCandidate": {
+      "subject": "agent",
+      "attr": "口径",
+      "value": "明面上陈列取舍过程",
+      "negative": true,
+      "text": "取舍过程不在明面陈列，心里有数即可，用户可自行去记忆海查看"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "types-20-lead-2026-11-19.jsonl#1",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "project",
+      "attr": "命名",
+      "value": "dsh-yu-user：通用版引擎",
+      "negative": false,
+      "text": "dsh-yu-user 工作区对应通用版引擎"
+    },
+    "bestCandidate": {
+      "subject": "other",
+      "attr": "归属",
+      "value": "两 agent 并行三工作区",
+      "negative": false,
+      "text": "我与 qw 两个 agent 在三个工作区并行做项目开发与优化"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "types-20-lead-2026-11-19.jsonl#1",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "project",
+      "attr": "命名",
+      "value": "shuttle：a2a 协作层",
+      "negative": false,
+      "text": "shuttle 工作区对应 a2a 协作层"
+    },
+    "bestCandidate": {
+      "subject": "other",
+      "attr": "归属",
+      "value": "两 agent 并行三工作区",
+      "negative": false,
+      "text": "我与 qw 两个 agent 在三个工作区并行做项目开发与优化"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "types-20-lead-2026-11-19.jsonl#1",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "project",
+      "attr": "命名",
+      "value": "dsh-memory-loom：现役插件",
+      "negative": false,
+      "text": "dsh-memory-loom 工作区对应现役插件"
+    },
+    "bestCandidate": {
+      "subject": "other",
+      "attr": "归属",
+      "value": "两 agent 并行三工作区",
+      "negative": false,
+      "text": "我与 qw 两个 agent 在三个工作区并行做项目开发与优化"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "types-20-lead-2026-11-19.jsonl#3",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "project",
+      "attr": "命名",
+      "value": "dsh-yu 通用版",
+      "negative": false,
+      "text": "新建工作区 dsh-yu 为通用版"
+    },
+    "bestCandidate": {
+      "subject": "project",
+      "attr": "归属",
+      "value": "dsh-yu 与 a2a 各自独立工作区",
+      "negative": false,
+      "text": "通用 dsh-yu 与 a2a 新项目分别建了独立工作区，互不混用。"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "types-20-lead-2026-11-19.jsonl#3",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "product",
+      "attr": "归属",
+      "value": "引擎与人格层拆开",
+      "negative": false,
+      "text": "dsh-yu 引擎与人格层拆开，分层归属明确"
+    },
+    "bestCandidate": {
+      "subject": "project",
+      "attr": "归属",
+      "value": "dsh-yu 与 a2a 各自独立工作区",
+      "negative": false,
+      "text": "通用 dsh-yu 与 a2a 新项目分别建了独立工作区，互不混用。"
+    },
+    "maxContainment": 0
+  },
+  {
+    "pair": "types-20-lead-2026-11-19.jsonl#3",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "product",
+      "attr": "归属",
+      "value": "引擎不带性格概念",
+      "negative": false,
+      "text": "dsh-yu 引擎层不承载性格概念"
+    },
+    "bestCandidate": {
+      "subject": "project",
+      "attr": "归属",
+      "value": "dsh-yu 与 a2a 各自独立工作区",
+      "negative": false,
+      "text": "通用 dsh-yu 与 a2a 新项目分别建了独立工作区，互不混用。"
+    },
+    "maxContainment": 0
+  },
+  {
+    "pair": "types-20-lead-2026-11-19.jsonl#4",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "project",
+      "attr": "顺序",
+      "value": "先自我成长与性格，后接外部接入与工具",
+      "negative": false,
+      "text": "项目先做自我成长与性格，做好后再接外部接入、工具等。"
+    },
+    "bestCandidate": {
+      "subject": "product",
+      "attr": "风格",
+      "value": "有性格的自我",
+      "negative": false,
+      "text": "记忆系统需在聊天与工作中总结成长并形成有性格的自我"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "types-20-lead-2026-11-19.jsonl#4",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "project",
+      "attr": "归属",
+      "value": "主线",
+      "negative": false,
+      "text": "自我成长是项目主线。"
+    },
+    "bestCandidate": {
+      "subject": "product",
+      "attr": "风格",
+      "value": "有性格的自我",
+      "negative": false,
+      "text": "记忆系统需在聊天与工作中总结成长并形成有性格的自我"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "types-20-lead-2026-11-19.jsonl#4",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "project",
+      "attr": "归属",
+      "value": "附属功能",
+      "negative": true,
+      "text": "自我成长不应被当作附属功能。"
+    },
+    "bestCandidate": {
+      "subject": "product",
+      "attr": "风格",
+      "value": "有性格的自我",
+      "negative": false,
+      "text": "记忆系统需在聊天与工作中总结成长并形成有性格的自我"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "types-20-lead-2026-11-19.jsonl#5",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "product",
+      "attr": "关系",
+      "value": "太极两半",
+      "negative": false,
+      "text": "人格页与记忆海在视觉上互为太极两半。"
+    },
+    "bestCandidate": {
+      "subject": "product",
+      "attr": "关系",
+      "value": "与记忆海星空冷峻深邃相对立",
+      "negative": false,
+      "text": "人格页面要与记忆海星空的冷峻深邃形成对立"
+    },
+    "maxContainment": 0
+  },
+  {
+    "pair": "types-20-lead-2026-11-19.jsonl#5",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "product",
+      "attr": "风格",
+      "value": "阴：深冷远虚多，星点平等微渺",
+      "negative": false,
+      "text": "记忆海视觉取阴，深、冷、远、虚、多，星点平等微渺。"
+    },
+    "bestCandidate": {
+      "subject": "product",
+      "attr": "风格",
+      "value": "太极阳定位",
+      "negative": false,
+      "text": "人格页面的视觉定位为太极阳"
+    },
+    "maxContainment": 0
+  },
+  {
+    "pair": "types-20-lead-2026-11-19.jsonl#5",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "product",
+      "attr": "风格",
+      "value": "阳：亮暖近实一",
+      "negative": false,
+      "text": "人格页视觉取阳，亮、暖、近、实、一。"
+    },
+    "bestCandidate": {
+      "subject": "product",
+      "attr": "风格",
+      "value": "太极阳定位",
+      "negative": false,
+      "text": "人格页面的视觉定位为太极阳"
+    },
+    "maxContainment": 0
+  },
+  {
+    "pair": "types-20-lead-2026-11-19.jsonl#5",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "product",
+      "attr": "风格",
+      "value": "内核块暖底朱色粗线加粗",
+      "negative": false,
+      "text": "内核 data-main 块用暖底、朱色粗线、23px 加粗，做视觉主位"
+    },
+    "bestCandidate": {
+      "subject": "product",
+      "attr": "风格",
+      "value": "太极阳定位",
+      "negative": false,
+      "text": "人格页面的视觉定位为太极阳"
+    },
+    "maxContainment": 0
+  },
+  {
+    "pair": "types-20-lead-2026-11-19.jsonl#5",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "product",
+      "attr": "归属",
+      "value": "其余三块缩进降档",
+      "negative": false,
+      "text": "其余三块 data-aside 缩进降档，与内核主块拉开层级"
+    },
+    "bestCandidate": {
+      "subject": "product",
+      "attr": "风格",
+      "value": "太极阳定位",
+      "negative": false,
+      "text": "人格页面的视觉定位为太极阳"
+    },
+    "maxContainment": -1
+  },
+  {
+    "pair": "types-20-lead-2026-11-19.jsonl#5",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "product",
+      "attr": "风格",
+      "value": "星点1px光，实心块与实心按钮",
+      "negative": false,
+      "text": "虚对实：星点用 1px 光，实心色块、3px 实心条、实心按钮压阵"
+    },
+    "bestCandidate": {
+      "subject": "product",
+      "attr": "风格",
+      "value": "太极阳定位",
+      "negative": false,
+      "text": "人格页面的视觉定位为太极阳"
+    },
+    "maxContainment": 0
+  },
+  {
+    "pair": "types-20-lead-2026-11-19.jsonl#5",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "product",
+      "attr": "风格",
+      "value": "等宽小字拉开，大字推近",
+      "negative": false,
+      "text": "远对近：等宽小字拉开距离，大字推到眼前"
+    },
+    "bestCandidate": {
+      "subject": "product",
+      "attr": "风格",
+      "value": "太极阳定位",
+      "negative": false,
+      "text": "人格页面的视觉定位为太极阳"
+    },
+    "maxContainment": 0
+  },
+  {
+    "pair": "types-20-lead-2026-11-19.jsonl#5",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "product",
+      "attr": "风格",
+      "value": "冷光对朱#b8492a日金#e08a4a",
+      "negative": false,
+      "text": "冷对暖：深空冷光对朱 #b8492a 与日金 #e08a4a"
+    },
+    "bestCandidate": {
+      "subject": "product",
+      "attr": "风格",
+      "value": "太极阳定位",
+      "negative": false,
+      "text": "人格页面的视觉定位为太极阳"
+    },
+    "maxContainment": 0
+  },
+  {
+    "pair": "types-20-lead-2026-11-19.jsonl#7",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "project",
+      "attr": "结论",
+      "value": "先模拟，等模型发展",
+      "negative": false,
+      "text": "让角色自主发展目前做不到，先做模拟、等模型成熟"
+    },
+    "bestCandidate": {
+      "subject": "user",
+      "attr": "结论",
+      "value": "先模拟，等待模型发展",
+      "negative": false,
+      "text": "主张先做模拟、等待模型自然发展"
+    },
+    "maxContainment": 0.833
+  },
+  {
+    "pair": "types-20-lead-2026-11-19.jsonl#7",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "product",
+      "attr": "结论",
+      "value": "去掉防护后原初人格消失",
+      "negative": false,
+      "text": "防护去掉后，最开始的那个她也不在了"
+    },
+    "bestCandidate": {
+      "subject": "user",
+      "attr": "结论",
+      "value": "先模拟，等待模型发展",
+      "negative": false,
+      "text": "主张先做模拟、等待模型自然发展"
+    },
+    "maxContainment": 0
+  },
+  {
+    "pair": "types-20-lead-2026-11-19.jsonl#7",
+    "kind": "unmatched",
+    "labelDecision": {
+      "subject": "product",
+      "attr": "结论",
+      "value": "时间刻与事件轴生硬",
+      "negative": false,
+      "text": "按时间刻做选择的角色发展设计比预期生硬"
+    },
+    "bestCandidate": {
+      "subject": "user",
+      "attr": "结论",
+      "value": "先模拟，等待模型发展",
+      "negative": false,
+      "text": "主张先做模拟、等待模型自然发展"
+    },
+    "maxContainment": 0
+  }
+]

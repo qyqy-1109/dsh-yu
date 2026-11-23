@@ -1,0 +1,21 @@
+{"type":"header","version":"schema-sample-20-v4","source":"out/cand-schema-v4.jsonl","promptVersion":"schema-v4","criterion":"v1.5 + attr-definitions-v1","count":20}
+{"n":1,"sessionId":"session-02557f61-507b-4d85-a50c-d8aa175e0f2d","fromTurn":1,"kind":"fact","subject":"other","attr":"unknown","value":"温州方舟永道科技有限公司","negative":false,"text":"公司名为温州方舟永道科技有限公司"}
+{"n":2,"sessionId":"session-b850880f-e39d-4522-8bbf-674cdddf23db","fromTurn":13,"kind":"world","subject":"product","attr":"unknown","value":"回到顶端按钮","negative":false,"text":"要有回到顶端的按钮，记忆条目多时方便回顶"}
+{"n":3,"sessionId":"session-3d2642c8-f71b-4a62-98cc-84175f3b51fd","fromTurn":7,"kind":"fact","subject":"user","attr":"unknown","value":"qoder 积分快用完","negative":false,"text":"qoder 的积分快要耗尽，需节省使用"}
+{"n":4,"sessionId":"session-d4567bf6-93d8-4ab8-ae2b-1f0845b59549","fromTurn":19,"kind":"world","subject":"product","attr":"位置","value":"覆盖在所有图层之上","negative":false,"text":"查看详情的窗口需要覆盖在所有图层之上"}
+{"n":5,"sessionId":"session-bf57aa9a-7822-4ca2-a66d-076cf2871607","fromTurn":7,"kind":"world","subject":"product","attr":"关系","value":"人格与记忆缺一不可","negative":false,"text":"没有人格或没有记忆都是缺失的，两者兼备才算灵魂。"}
+{"n":6,"sessionId":"session-3d2642c8-f71b-4a62-98cc-84175f3b51fd","fromTurn":7,"kind":"self","subject":"agent","attr":"口径","value":"先量再下结论","negative":false,"text":"先量一量，用数据判断，别凭感觉下结论"}
+{"n":7,"sessionId":"session-b920099d-5747-4c23-94ac-eef8e2bee3a6","fromTurn":1,"kind":"world","subject":"other","attr":"口径","value":"端到端交付+模型边界判断","negative":false,"text":"对方按技术判断力、端到端交付、模型边界、产品判断力筛人"}
+{"n":8,"sessionId":"session-66664c07-c7ee-44e4-bad2-c03dde2e9a12","fromTurn":1,"kind":"fact","subject":"product","attr":"口径","value":"used 口径","negative":true,"text":"used 口径已废弃，不再用它衡量记忆是否被用上"}
+{"n":9,"sessionId":"session-a6f81217-2ce8-4bf6-990b-89363d9048a2","fromTurn":37,"kind":"world","subject":"project","attr":"口径","value":"违反后谁必须改","negative":false,"text":"subject 判据用 v1.5：看违反后谁必须改，不看文本提到谁"}
+{"n":10,"sessionId":"session-b2024a8e-7671-459d-ab70-19b4be6f9c95","fromTurn":1,"kind":"world","subject":"agent","attr":"命名","value":"该能力称涌现","negative":false,"text":"把从记忆中总结错误并避免重犯的能力称为“涌现”"}
+{"n":11,"sessionId":"session-bf57aa9a-7822-4ca2-a66d-076cf2871607","fromTurn":7,"kind":"world","subject":"product","attr":"命名","value":"人格","negative":false,"text":"内核在界面上的称呼定为“人格”。"}
+{"n":12,"sessionId":"session-bf57aa9a-7822-4ca2-a66d-076cf2871607","fromTurn":67,"kind":"fact","subject":"project","attr":"命名","value":"旧识","negative":false,"text":"这个项目叫旧识"}
+{"n":13,"sessionId":"session-d4567bf6-93d8-4ab8-ae2b-1f0845b59549","fromTurn":25,"kind":"world","subject":"product","attr":"存留","value":"dsh关闭相关内容","negative":true,"text":"右侧不要出现整个 dsh 关闭相关内容"}
+{"n":14,"sessionId":"session-9f98cd2b-7569-4003-8cc7-a7f9a3b29b56","fromTurn":1,"kind":"constraint","subject":"agent","attr":"底线","value":"工作区外谈求职","negative":true,"text":"只在求职工作区谈找工作，其它场合不要提求职"}
+{"n":15,"sessionId":"session-a6f81217-2ce8-4bf6-990b-89363d9048a2","fromTurn":7,"kind":"world","subject":"product","attr":"底线","value":"自动归档旧记忆","negative":true,"text":"与旧条目近似时只出 supersedes 提案，不自动归档。"}
+{"n":16,"sessionId":"session-bf57aa9a-7822-4ca2-a66d-076cf2871607","fromTurn":19,"kind":"self","subject":"agent","attr":"归属","value":"给判断，用户下决定","negative":false,"text":"只给判断，决定权留给用户"}
+{"n":17,"sessionId":"session-a6f81217-2ce8-4bf6-990b-89363d9048a2","fromTurn":7,"kind":"world","subject":"product","attr":"归属","value":"轴注册表归人格层","negative":false,"text":"引擎只带 choice 机制与 axisId，轴定义与确认在人格层。"}
+{"n":18,"sessionId":"session-07d41339-ce3b-4e15-bee2-0fae3eb1b6bc","fromTurn":1,"kind":"fact","subject":"project","attr":"归属","value":"两 agent 三工作区并行","negative":false,"text":"与 qw 两个 agent 在当前、shuttle、dsh-yu 三工作区并行开发优化"}
+{"n":19,"sessionId":"session-bf57aa9a-7822-4ca2-a66d-076cf2871607","fromTurn":67,"kind":"fact","subject":"user","attr":"归属","value":"补充作用","negative":false,"text":"用户只充当补充角色"}
+{"n":20,"sessionId":"session-b2024a8e-7671-459d-ab70-19b4be6f9c95","fromTurn":1,"kind":"world","subject":"agent","attr":"排障","value":"总结错误避免复发","negative":false,"text":"要求agent从记忆提取中自行总结错误，避免下次重犯"}
