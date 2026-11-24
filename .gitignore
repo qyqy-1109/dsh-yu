@@ -16,3 +16,5 @@ store.json.bak-*
 coverage/
 *.lcov
 out/
+.qoder/
+out/
