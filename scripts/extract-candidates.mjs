@@ -11,6 +11,7 @@
  *   node scripts/extract-candidates.mjs --labeled-only --limit 20 --out out/c2.jsonl
  */
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -104,7 +105,7 @@ export function buildPrompt(userText) {
   ].join('\n');
 }
 function parseArgs(argv) {
-  const args = { planOnly: false, sessions: [], labeledOnly: false, limit: 10, out: null, model: 'cn:deepseek-v4.1-flash', base: 'http://localhost:7864/v1', turns: 6, stride: 6 };
+  const args = { planOnly: false, plan: null, planAllowMissing: false, sessions: [], labeledOnly: false, limit: 10, out: null, model: 'cn:deepseek-v4.1-flash', base: 'http://localhost:7864/v1', turns: 6, stride: 6 };
   for (let i = 0; i < argv.length; i += 1) {
     const token = argv[i];
     if (token === '--session') args.sessions.push(argv[++i]);
@@ -116,6 +117,8 @@ function parseArgs(argv) {
     else if (token === '--turns') args.turns = Number(argv[++i]);
     else if (token === '--stride') args.stride = Number(argv[++i]);
     else if (token === '--plan-only') args.planOnly = true;
+    else if (token === '--plan') args.plan = argv[++i];
+    else if (token === '--plan-allow-missing') args.planAllowMissing = true;
     else if (token === '--help' || token === '-h') args.help = true;
     else throw new Error(`不认识的参数：${token}`);
   }
@@ -195,7 +198,39 @@ async function main() {
   }
 
   const windows = [];
-  if (perSession.length > 0) {
+  /**
+   * `--plan <file>`：把选择清单当**输入**，不重新现挑。
+   *
+   * 为什么必须有它：采样是"按当前日志集现挑"，日志每天都在长，同一个 `--limit 59`
+   * 两天跑出来是两批不同的窗（实测只重合 44/59，连 cutoff 都漂）。
+   * 那样的命令不是复现命令 —— plan 必须是输入，不是输出。
+   * 找不到的窗直接报出来并退出，不改用别的窗替补（静默替补等于换了输入还说是同一份）。
+   */
+  if (args.plan !== null) {
+    const planJson = JSON.parse(readFileSync(resolve(args.plan), 'utf8'));
+    const selected = Array.isArray(planJson?.selected) ? planJson.selected : [];
+    const index = new Map();
+    for (const list of perSession) {
+      for (const window of list) index.set(`${window.sessionId}#${window.fromTurn}-${window.toTurn}`, window);
+    }
+    const missing = [];
+    for (const wanted of selected) {
+      const found = index.get(`${wanted.sessionId}#${wanted.fromTurn}-${wanted.toTurn}`);
+      if (found === undefined) {
+        missing.push(`${wanted.sessionId}#${wanted.fromTurn}-${wanted.toTurn}`);
+        continue;
+      }
+      // cutoff 以清单为准：它决定"截至哪一刻的库"，重算会漂
+      windows.push({ ...found, cutoff: wanted.cutoff });
+    }
+    if (missing.length > 0) {
+      console.error(`清单里有 ${missing.length} 个窗在当前日志里找不到：${missing.slice(0, 3).join('、')}…`);
+      console.error('不改用别的窗替补：换输入就不是同一份对表了。');
+      if (args.planAllowMissing !== true) process.exit(2);
+      console.error('（--plan-allow-missing 已开启：继续跑，缺的窗数会写进表头 planMissing）');
+    }
+    args.planMissing = missing.length;
+  } else if (perSession.length > 0) {
     const quota = Math.max(1, Math.ceil(args.limit / perSession.length));
     for (const list of perSession) windows.push(...list.slice(0, quota));
     // 配额没吃满就把余量按顺序补回来，仍然保持"每个会话先拿一轮"
@@ -289,6 +324,9 @@ async function main() {
     scannerVersion: SCANNER_VERSION,
     rulesDigest: ruleDigest(),
     codeDigest: codeDigest(),
+    planPath: args.plan === null ? null : resolve(args.plan),
+    planSha256: args.plan === null ? null : createHash('sha256').update(readFileSync(resolve(args.plan))).digest('hex'),
+    planMissing: args.plan === null ? null : (args.planMissing ?? 0),
     storePath: null, // 抽取阶段不碰库；库路径由判分器的表头负责钉
   };
 
