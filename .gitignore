@@ -18,3 +18,5 @@ coverage/
 out/
 .qoder/
 out/
+# 对表对方的中间产物：留在盘上，但不进我的仓（对表规矩：不看、不引用）
+labels/schema-pairs-qoder-*.jsonl
