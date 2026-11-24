@@ -1,0 +1,42 @@
+{
+  "hooks": {
+    "CwdChanged": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node",
+            "args": [
+              "C:/Users/Windows/Desktop/dsh-memory-loom/.qoder/shuttle-wake.mjs",
+              "--register",
+              "--channels",
+              "loom-p1"
+            ],
+            "timeout": 15,
+            "statusMessage": "shuttle 盯通道注册（loom-p1）"
+          }
+        ]
+      }
+    ],
+    "FileChanged": [
+      {
+        "matcher": "\\.jsonl$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node",
+            "args": [
+              "C:/Users/Windows/Desktop/dsh-memory-loom/.qoder/shuttle-wake.mjs",
+              "--channels",
+              "loom-p1"
+            ],
+            "timeout": 15,
+            "asyncRewake": true,
+            "rewakeMessage": "shuttle loom-p1 新消息（逐字原文）",
+            "statusMessage": "shuttle 唤醒"
+          }
+        ]
+      }
+    ]
+  }
+}
