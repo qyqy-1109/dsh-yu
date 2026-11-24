@@ -1,0 +1,478 @@
+{
+  "type": "plan",
+  "windows": 59,
+  "selected": [
+    {
+      "sessionId": "session-07d41339-ce3b-4e15-bee2-0fae3eb1b6bc",
+      "slug": "--C-Users-Windows-Desktop-dsh-yu-user--",
+      "fromTurn": 1,
+      "toTurn": 3,
+      "cutoff": 1794837642558,
+      "chars": 82
+    },
+    {
+      "sessionId": "session-3d2642c8-f71b-4a62-98cc-84175f3b51fd",
+      "slug": "--C-Users-Windows-Desktop-shuttle--",
+      "fromTurn": 1,
+      "toTurn": 1,
+      "cutoff": 1794837304901,
+      "chars": 6
+    },
+    {
+      "sessionId": "session-d4567bf6-93d8-4ab8-ae2b-1f0845b59549",
+      "slug": "--C-Users-Windows-Desktop-test--",
+      "fromTurn": 1,
+      "toTurn": 6,
+      "cutoff": 1793937654438,
+      "chars": 144
+    },
+    {
+      "sessionId": "session-d4567bf6-93d8-4ab8-ae2b-1f0845b59549",
+      "slug": "--C-Users-Windows-Desktop-test--",
+      "fromTurn": 7,
+      "toTurn": 12,
+      "cutoff": 1793941597944,
+      "chars": 261
+    },
+    {
+      "sessionId": "session-d4567bf6-93d8-4ab8-ae2b-1f0845b59549",
+      "slug": "--C-Users-Windows-Desktop-test--",
+      "fromTurn": 13,
+      "toTurn": 18,
+      "cutoff": 1793944769612,
+      "chars": 261
+    },
+    {
+      "sessionId": "session-d4567bf6-93d8-4ab8-ae2b-1f0845b59549",
+      "slug": "--C-Users-Windows-Desktop-test--",
+      "fromTurn": 19,
+      "toTurn": 24,
+      "cutoff": 1793948352836,
+      "chars": 160
+    },
+    {
+      "sessionId": "session-140a1076-77d5-4b7c-ba9d-b72779b1fc7a",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 1,
+      "toTurn": 6,
+      "cutoff": 1794053554180,
+      "chars": 142
+    },
+    {
+      "sessionId": "session-140a1076-77d5-4b7c-ba9d-b72779b1fc7a",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 7,
+      "toTurn": 11,
+      "cutoff": 1794121518800,
+      "chars": 46
+    },
+    {
+      "sessionId": "session-66664c07-c7ee-44e4-bad2-c03dde2e9a12",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 1,
+      "toTurn": 6,
+      "cutoff": 1794306616267,
+      "chars": 181
+    },
+    {
+      "sessionId": "session-66664c07-c7ee-44e4-bad2-c03dde2e9a12",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 7,
+      "toTurn": 7,
+      "cutoff": 1794307432954,
+      "chars": 13
+    },
+    {
+      "sessionId": "session-9f98cd2b-7569-4003-8cc7-a7f9a3b29b56",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 1,
+      "toTurn": 4,
+      "cutoff": 1794454624320,
+      "chars": 246
+    },
+    {
+      "sessionId": "session-a6f81217-2ce8-4bf6-990b-89363d9048a2",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 1,
+      "toTurn": 6,
+      "cutoff": 1794834463210,
+      "chars": 469
+    },
+    {
+      "sessionId": "session-a6f81217-2ce8-4bf6-990b-89363d9048a2",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 7,
+      "toTurn": 12,
+      "cutoff": 1794837190690,
+      "chars": 2104
+    },
+    {
+      "sessionId": "session-a6f81217-2ce8-4bf6-990b-89363d9048a2",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 13,
+      "toTurn": 18,
+      "cutoff": 1794888890540,
+      "chars": 5024
+    },
+    {
+      "sessionId": "session-a6f81217-2ce8-4bf6-990b-89363d9048a2",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 19,
+      "toTurn": 24,
+      "cutoff": 1795053128129,
+      "chars": 5074
+    },
+    {
+      "sessionId": "session-ab5e519b-0dc0-4334-a25d-26fb5c4f5701",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 1,
+      "toTurn": 3,
+      "cutoff": 1794049254014,
+      "chars": 33
+    },
+    {
+      "sessionId": "session-b2024a8e-7671-459d-ab70-19b4be6f9c95",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 1,
+      "toTurn": 6,
+      "cutoff": 1794122772248,
+      "chars": 159
+    },
+    {
+      "sessionId": "session-b2024a8e-7671-459d-ab70-19b4be6f9c95",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 7,
+      "toTurn": 12,
+      "cutoff": 1794131077145,
+      "chars": 57
+    },
+    {
+      "sessionId": "session-b2024a8e-7671-459d-ab70-19b4be6f9c95",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 13,
+      "toTurn": 14,
+      "cutoff": 1794131616184,
+      "chars": 19
+    },
+    {
+      "sessionId": "session-b850880f-e39d-4522-8bbf-674cdddf23db",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 1,
+      "toTurn": 6,
+      "cutoff": 1794041083244,
+      "chars": 124
+    },
+    {
+      "sessionId": "session-b850880f-e39d-4522-8bbf-674cdddf23db",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 7,
+      "toTurn": 12,
+      "cutoff": 1794044246405,
+      "chars": 101
+    },
+    {
+      "sessionId": "session-b850880f-e39d-4522-8bbf-674cdddf23db",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 13,
+      "toTurn": 18,
+      "cutoff": 1794045698675,
+      "chars": 150
+    },
+    {
+      "sessionId": "session-b850880f-e39d-4522-8bbf-674cdddf23db",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 19,
+      "toTurn": 24,
+      "cutoff": 1794047682163,
+      "chars": 123
+    },
+    {
+      "sessionId": "session-bf57aa9a-7822-4ca2-a66d-076cf2871607",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 1,
+      "toTurn": 6,
+      "cutoff": 1794133317212,
+      "chars": 292
+    },
+    {
+      "sessionId": "session-bf57aa9a-7822-4ca2-a66d-076cf2871607",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 7,
+      "toTurn": 12,
+      "cutoff": 1794136033997,
+      "chars": 224
+    },
+    {
+      "sessionId": "session-bf57aa9a-7822-4ca2-a66d-076cf2871607",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 13,
+      "toTurn": 18,
+      "cutoff": 1794136546224,
+      "chars": 97
+    },
+    {
+      "sessionId": "session-bf57aa9a-7822-4ca2-a66d-076cf2871607",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 19,
+      "toTurn": 24,
+      "cutoff": 1794137260924,
+      "chars": 201
+    },
+    {
+      "sessionId": "session-e333b13d-e8a9-4eea-96fa-ee032e352812",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 1,
+      "toTurn": 2,
+      "cutoff": 1794137364947,
+      "chars": 40
+    },
+    {
+      "sessionId": "session-02557f61-507b-4d85-a50c-d8aa175e0f2d",
+      "slug": "--D-boss~9488~5BF9~52A9~624B--",
+      "fromTurn": 1,
+      "toTurn": 6,
+      "cutoff": 1794365339448,
+      "chars": 876
+    },
+    {
+      "sessionId": "session-02557f61-507b-4d85-a50c-d8aa175e0f2d",
+      "slug": "--D-boss~9488~5BF9~52A9~624B--",
+      "fromTurn": 7,
+      "toTurn": 12,
+      "cutoff": 1794399685817,
+      "chars": 392
+    },
+    {
+      "sessionId": "session-02557f61-507b-4d85-a50c-d8aa175e0f2d",
+      "slug": "--D-boss~9488~5BF9~52A9~624B--",
+      "fromTurn": 13,
+      "toTurn": 15,
+      "cutoff": 1794400355716,
+      "chars": 143
+    },
+    {
+      "sessionId": "session-26d5f61d-c969-44ad-b79a-250051221da6",
+      "slug": "--D-boss~9488~5BF9~52A9~624B--",
+      "fromTurn": 1,
+      "toTurn": 1,
+      "cutoff": 1794833338276,
+      "chars": 1114
+    },
+    {
+      "sessionId": "session-6fa9a3a1-3428-4a5e-ac4a-3dd5e45e23f2",
+      "slug": "--D-boss~9488~5BF9~52A9~624B--",
+      "fromTurn": 1,
+      "toTurn": 3,
+      "cutoff": 1794381983867,
+      "chars": 1865
+    },
+    {
+      "sessionId": "session-d4567bf6-93d8-4ab8-ae2b-1f0845b59549",
+      "slug": "--C-Users-Windows-Desktop-test--",
+      "fromTurn": 25,
+      "toTurn": 30,
+      "cutoff": 1793949317574,
+      "chars": 130
+    },
+    {
+      "sessionId": "session-b850880f-e39d-4522-8bbf-674cdddf23db",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 25,
+      "toTurn": 30,
+      "cutoff": 1794048843272,
+      "chars": 177
+    },
+    {
+      "sessionId": "session-bf57aa9a-7822-4ca2-a66d-076cf2871607",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 25,
+      "toTurn": 30,
+      "cutoff": 1794138301505,
+      "chars": 484
+    },
+    {
+      "sessionId": "session-d4567bf6-93d8-4ab8-ae2b-1f0845b59549",
+      "slug": "--C-Users-Windows-Desktop-test--",
+      "fromTurn": 31,
+      "toTurn": 36,
+      "cutoff": 1793951612785,
+      "chars": 241
+    },
+    {
+      "sessionId": "session-b850880f-e39d-4522-8bbf-674cdddf23db",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 31,
+      "toTurn": 36,
+      "cutoff": 1794050214699,
+      "chars": 102
+    },
+    {
+      "sessionId": "session-bf57aa9a-7822-4ca2-a66d-076cf2871607",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 31,
+      "toTurn": 36,
+      "cutoff": 1794139188302,
+      "chars": 163
+    },
+    {
+      "sessionId": "session-d4567bf6-93d8-4ab8-ae2b-1f0845b59549",
+      "slug": "--C-Users-Windows-Desktop-test--",
+      "fromTurn": 37,
+      "toTurn": 42,
+      "cutoff": 1793952471096,
+      "chars": 46
+    },
+    {
+      "sessionId": "session-b850880f-e39d-4522-8bbf-674cdddf23db",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 37,
+      "toTurn": 38,
+      "cutoff": 1794050620249,
+      "chars": 50
+    },
+    {
+      "sessionId": "session-bf57aa9a-7822-4ca2-a66d-076cf2871607",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 37,
+      "toTurn": 42,
+      "cutoff": 1794140065130,
+      "chars": 137
+    },
+    {
+      "sessionId": "session-d4567bf6-93d8-4ab8-ae2b-1f0845b59549",
+      "slug": "--C-Users-Windows-Desktop-test--",
+      "fromTurn": 43,
+      "toTurn": 48,
+      "cutoff": 1793953988997,
+      "chars": 169
+    },
+    {
+      "sessionId": "session-bf57aa9a-7822-4ca2-a66d-076cf2871607",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 43,
+      "toTurn": 48,
+      "cutoff": 1794191843498,
+      "chars": 150
+    },
+    {
+      "sessionId": "session-d4567bf6-93d8-4ab8-ae2b-1f0845b59549",
+      "slug": "--C-Users-Windows-Desktop-test--",
+      "fromTurn": 49,
+      "toTurn": 54,
+      "cutoff": 1793957259915,
+      "chars": 101
+    },
+    {
+      "sessionId": "session-bf57aa9a-7822-4ca2-a66d-076cf2871607",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 49,
+      "toTurn": 54,
+      "cutoff": 1794192854731,
+      "chars": 125
+    },
+    {
+      "sessionId": "session-d4567bf6-93d8-4ab8-ae2b-1f0845b59549",
+      "slug": "--C-Users-Windows-Desktop-test--",
+      "fromTurn": 55,
+      "toTurn": 60,
+      "cutoff": 1794015009815,
+      "chars": 52
+    },
+    {
+      "sessionId": "session-bf57aa9a-7822-4ca2-a66d-076cf2871607",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 55,
+      "toTurn": 60,
+      "cutoff": 1794194682562,
+      "chars": 102
+    },
+    {
+      "sessionId": "session-d4567bf6-93d8-4ab8-ae2b-1f0845b59549",
+      "slug": "--C-Users-Windows-Desktop-test--",
+      "fromTurn": 61,
+      "toTurn": 66,
+      "cutoff": 1794019560337,
+      "chars": 83
+    },
+    {
+      "sessionId": "session-bf57aa9a-7822-4ca2-a66d-076cf2871607",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 61,
+      "toTurn": 66,
+      "cutoff": 1794290911180,
+      "chars": 105
+    },
+    {
+      "sessionId": "session-d4567bf6-93d8-4ab8-ae2b-1f0845b59549",
+      "slug": "--C-Users-Windows-Desktop-test--",
+      "fromTurn": 67,
+      "toTurn": 68,
+      "cutoff": 1794022341050,
+      "chars": 38
+    },
+    {
+      "sessionId": "session-bf57aa9a-7822-4ca2-a66d-076cf2871607",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 67,
+      "toTurn": 72,
+      "cutoff": 1794299984178,
+      "chars": 168
+    },
+    {
+      "sessionId": "session-bf57aa9a-7822-4ca2-a66d-076cf2871607",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 73,
+      "toTurn": 78,
+      "cutoff": 1794304714710,
+      "chars": 61
+    },
+    {
+      "sessionId": "session-bf57aa9a-7822-4ca2-a66d-076cf2871607",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 79,
+      "toTurn": 84,
+      "cutoff": 1794305643363,
+      "chars": 206
+    },
+    {
+      "sessionId": "session-bf57aa9a-7822-4ca2-a66d-076cf2871607",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 85,
+      "toTurn": 90,
+      "cutoff": 1794306882465,
+      "chars": 114
+    },
+    {
+      "sessionId": "session-bf57aa9a-7822-4ca2-a66d-076cf2871607",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 91,
+      "toTurn": 96,
+      "cutoff": 1794308276239,
+      "chars": 178
+    },
+    {
+      "sessionId": "session-bf57aa9a-7822-4ca2-a66d-076cf2871607",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 97,
+      "toTurn": 102,
+      "cutoff": 1794448965325,
+      "chars": 53
+    },
+    {
+      "sessionId": "session-bf57aa9a-7822-4ca2-a66d-076cf2871607",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 103,
+      "toTurn": 108,
+      "cutoff": 1794455833342,
+      "chars": 187
+    },
+    {
+      "sessionId": "session-bf57aa9a-7822-4ca2-a66d-076cf2871607",
+      "slug": "--D-~63D2~4EF6--",
+      "fromTurn": 109,
+      "toTurn": 110,
+      "cutoff": 1794533293201,
+      "chars": 59
+    }
+  ]
+}
